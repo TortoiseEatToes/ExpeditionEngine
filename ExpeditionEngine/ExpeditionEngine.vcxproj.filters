@@ -1,0 +1,2501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="dist">
+      <UniqueIdentifier>{8fed7544-9b44-407b-8994-8c0d0e1125b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{74a5c5cc-9463-4f75-b9dd-3bccaa62662e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine">
+      <UniqueIdentifier>{87897816-6833-47c1-894d-f9a4852f8dc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Engine">
+      <UniqueIdentifier>{990c40b8-fe7d-4e5c-a9c0-1dc16dde5313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Resources">
+      <UniqueIdentifier>{58889d95-bb75-4ffd-b858-fa639d761b22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics">
+      <UniqueIdentifier>{a80557e7-ac87-46f1-be83-47c56b88f155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\GraphicsObjects">
+      <UniqueIdentifier>{741bada7-57e1-47ef-a489-3d5dd2f3beee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Engine\Commands">
+      <UniqueIdentifier>{cdccb55e-0104-420f-bf87-fc4e12fb4e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Engine\Threads">
+      <UniqueIdentifier>{c56ddfaa-515e-4698-bcf6-3c30de24967c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Containers">
+      <UniqueIdentifier>{365fd3f4-a90f-47dd-8813-6954f5c84878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scenes">
+      <UniqueIdentifier>{b79f197d-77bf-4c00-b9b2-f3f975c68b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Time">
+      <UniqueIdentifier>{070bdb26-1a62-4bf3-93ae-77112ba74609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UserCode">
+      <UniqueIdentifier>{9d70e5f4-1842-446f-a192-d59e0824113c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UserCode\Inputs">
+      <UniqueIdentifier>{9c6a30c0-8c11-45a3-a499-65d429300dde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\Model">
+      <UniqueIdentifier>{62723f65-1551-4a86-b690-e2afa7e6f712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scenes\Commands">
+      <UniqueIdentifier>{1a4756b7-1387-4714-af98-d6b1ac118b5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scenes\Commands\Registration Actions">
+      <UniqueIdentifier>{73003341-de01-4be7-9f40-261a9b8a27df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Input">
+      <UniqueIdentifier>{855a5793-1212-4c10-8077-9b390fd5c914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse">
+      <UniqueIdentifier>{ec721f8d-4078-4241-866f-4f4bad673742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard">
+      <UniqueIdentifier>{418f56d6-f1d6-48f4-b168-17fb3a8b176c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Register">
+      <UniqueIdentifier>{75ddec3e-fbcb-43c0-bf57-7c5d8091cdee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Register\Action">
+      <UniqueIdentifier>{5890d1c2-1cd3-4863-a533-ffdf169d9b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Register\Key">
+      <UniqueIdentifier>{1c88eb33-612a-4852-a95c-4ae3c1e08c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Register">
+      <UniqueIdentifier>{336b4d54-c8f1-4d73-9451-c506296b8ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Register\Action">
+      <UniqueIdentifier>{3143ef77-069a-4551-818c-37bdb1c6ea76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Register\Key">
+      <UniqueIdentifier>{6181d2c1-6e81-4bcf-a3dd-82d9eb1e055f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Deregister">
+      <UniqueIdentifier>{c42d59cd-3e1a-494f-aba4-2a5f741da22f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Deregister\Action">
+      <UniqueIdentifier>{c18de012-9fdf-4731-83fa-1fd4ee01a5c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Deregister\Key">
+      <UniqueIdentifier>{4dee46c5-270c-4c6f-8339-8f71e53c798e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Deregister">
+      <UniqueIdentifier>{02cfc863-16db-4d3a-89b2-80bf36ccca6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Deregister\Action">
+      <UniqueIdentifier>{24090e83-22ad-4ebd-ab51-9901672592b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Deregister\Key">
+      <UniqueIdentifier>{11e34505-6058-456e-bde4-ff2442ee2a5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UserCode\Scenes">
+      <UniqueIdentifier>{e8da5f16-0398-4c37-a31d-224e7452e529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UserCode\Game Objects">
+      <UniqueIdentifier>{77e59cd4-10c1-435b-8761-962654c5bc20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\UI">
+      <UniqueIdentifier>{b66b738a-6b75-4b13-b2b7-2a91dc187f03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Camera">
+      <UniqueIdentifier>{dd2eaacc-8a38-4795-835b-ebc738b55f62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\Shaders">
+      <UniqueIdentifier>{69ff3794-e2d5-47cf-83a7-95419053e08a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\Image">
+      <UniqueIdentifier>{b9628b7f-9f98-401d-b055-ad5285b21a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Math">
+      <UniqueIdentifier>{8a954cab-75ca-4e36-82eb-f82fc0cc297d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Math\Vector">
+      <UniqueIdentifier>{3778ea38-ab0d-40ed-acb7-b18e17c57414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Math\Base">
+      <UniqueIdentifier>{eaab2f81-f3a6-4206-ab78-3f46d02753c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Math\Matrix">
+      <UniqueIdentifier>{0cc07e70-12f2-4474-83bb-bf4e2c7415b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Math\Quaternion">
+      <UniqueIdentifier>{25b60906-40b8-4e94-b789-3499ae57f0f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Light">
+      <UniqueIdentifier>{ac6e1c0a-2bc5-4797-86e2-807dec83147f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\GraphicsScene">
+      <UniqueIdentifier>{ee151be3-e979-40c6-aa72-6263caacc14f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\GraphicsScene\Commands">
+      <UniqueIdentifier>{8a11a1c8-0064-4506-aab5-31627684b74f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\UI\UI Elements">
+      <UniqueIdentifier>{ea64b66f-57b3-48f5-b809-619f8cae7188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions">
+      <UniqueIdentifier>{96911ccd-9323-4c9c-8354-58751c4fee03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\Base">
+      <UniqueIdentifier>{e55e8f8e-4fba-4c4e-82f7-b77cd26839ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\Graphics Resource Pools">
+      <UniqueIdentifier>{7a6204c4-e298-4862-98b7-ba2a9b57f68f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\Graphics Resource Pools\Matrix">
+      <UniqueIdentifier>{900c07e0-2231-4718-a867-ea462a308105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\Graphics Resource Pools\Vector">
+      <UniqueIdentifier>{0fd3c105-0a73-40c9-8686-02be89a04265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\Graphics Resource Pools\Pointer">
+      <UniqueIdentifier>{c26a800e-9e83-4af4-855b-fb858ef8c146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Engine\Task Graph">
+      <UniqueIdentifier>{8c7b531c-ee7f-45d2-b9e8-49f373123eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Engine\Task Graph\Tasks">
+      <UniqueIdentifier>{b1985660-5076-4d6e-83ea-5edc86a6dfdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\Graphics Resource Pools\Material">
+      <UniqueIdentifier>{ead315e1-591f-4d60-8ca0-11cdca0c8e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\Model\Managers">
+      <UniqueIdentifier>{7a367185-f1d4-4fe2-9b9f-103f1913f2e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\Terrain">
+      <UniqueIdentifier>{eb01256c-cb2d-41d6-8958-4fe424dc792c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scenes\Commands\Manager Commands">
+      <UniqueIdentifier>{42077a18-6a16-4484-8d9f-30d9be65a8db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UserCode\Alarm">
+      <UniqueIdentifier>{c14a4db9-301e-4b00-9370-dc9bc7895d0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\Sprites">
+      <UniqueIdentifier>{59123afe-068d-4bdd-b353-1625779d6ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\Sprites\Managers">
+      <UniqueIdentifier>{a6e43fdd-1d2a-409f-a535-9399a15563ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\Sprites\Factories">
+      <UniqueIdentifier>{0954c716-648d-4518-bd4d-1c9529c8446d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\Sprites\Rapidxml">
+      <UniqueIdentifier>{e6d16dc8-e435-4291-813d-3183de5d5ef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\Sprites\ScreenLog">
+      <UniqueIdentifier>{3cf16734-74ea-431f-8430-0486ef9d13b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UserCode\Demo1">
+      <UniqueIdentifier>{e3bf0367-3351-44d8-a8aa-5b57a646db17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UserCode\Demo1\Planes">
+      <UniqueIdentifier>{77a934e8-934f-45b9-9e2a-1eef97a0ee9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UserCode\Demo1\CameraControls">
+      <UniqueIdentifier>{22050d10-d279-42b7-a840-1c8f03bb6509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UserCode\Demo1\BouncyBalls">
+      <UniqueIdentifier>{44eba475-eb35-4bbb-81d5-838a91ef1129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UserCode\Demo1\CameraControls\Inputs">
+      <UniqueIdentifier>{1371db95-d68a-4577-9012-4588dc536c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Scene Component">
+      <UniqueIdentifier>{e2d9e96f-f786-4ba6-8332-028397d801e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UserCode\Collision">
+      <UniqueIdentifier>{2243d73d-15da-438b-8e9c-e6c376b4bcee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UserCode\Demo1\Collision">
+      <UniqueIdentifier>{dd040e77-2545-429e-8ebb-0d46cbe2db38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\Shaders\HLSL">
+      <UniqueIdentifier>{3cf07e57-d1e5-48a7-a424-5ab384964d3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UserCode\Button">
+      <UniqueIdentifier>{7d353567-4ea4-4d1a-a5b3-833b69da6b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Containers\Engine Only">
+      <UniqueIdentifier>{c017d354-1f25-40e2-a599-6be01d7dd252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager">
+      <UniqueIdentifier>{9a75b98e-1123-461f-85b9-1356481d9ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UserCode\SpaceExplorationDemo">
+      <UniqueIdentifier>{f0ab3722-ee84-4580-a559-dcadb51c73f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UserCode\SpaceExplorationDemo\PlanetOne">
+      <UniqueIdentifier>{01ec82d4-5e37-4de9-9ec1-7ce391726037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Engine\Utilities">
+      <UniqueIdentifier>{cf314ed2-1920-4390-8482-1e26dbe8a5b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Containers\Priority Queue">
+      <UniqueIdentifier>{036dcac3-ed75-4829-9e76-e2ad6d5eed7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Containers\Container Utilities">
+      <UniqueIdentifier>{0427a279-225e-4101-a19e-5a30ea204ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\GraphicsScene\Commands\Particle">
+      <UniqueIdentifier>{1d36f652-0e3c-443c-a1cd-7e2584b21723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\Data">
+      <UniqueIdentifier>{8199f6eb-b18e-4785-aee2-b4666cf08dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\DX12_Graphics">
+      <UniqueIdentifier>{f3075739-f419-4a16-8e9d-5963a29cb1db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\DX12_Graphics\DX12_Helpers">
+      <UniqueIdentifier>{bc82d198-c842-4f70-b4ee-dbbea66352ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\DX12_Graphics\DX12_Shaders">
+      <UniqueIdentifier>{b8a23be1-edb5-4358-ad4a-d12c14bda476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\DX12_Graphics\DX12_FrameResources">
+      <UniqueIdentifier>{b81daf07-e3f7-4706-8ab4-08b10d01ea99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\DX12_Graphics\DX12_App">
+      <UniqueIdentifier>{69f53979-0e76-4c75-b821-89c5c86b79d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\Particles">
+      <UniqueIdentifier>{83e21c99-a4c1-423d-85b3-48205ae6036a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\Particles\Render">
+      <UniqueIdentifier>{f678193f-95fb-4a84-893a-773ca3bb87db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\Particles\Shared">
+      <UniqueIdentifier>{b7643ccf-4eb5-4ca0-b66a-fe4b6f05ea44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\Particles\Render\Particle">
+      <UniqueIdentifier>{6fa0956e-9ebb-4b54-9b72-ef157666ef32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\Particles\Render\Particle Burst">
+      <UniqueIdentifier>{80113fc8-bea4-494c-a1ad-19f9e8e1d7a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\Particles\Render\Particle Type">
+      <UniqueIdentifier>{aee10a06-7266-46cc-a0b9-7a58bd3f2c34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\Particles\Render\Internal Command">
+      <UniqueIdentifier>{c7ceb6cd-d36b-4fa8-8c3b-38072fea53c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scene Components">
+      <UniqueIdentifier>{35307700-bc80-47c5-95a1-17fb9eff7701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scene Components\Alarm">
+      <UniqueIdentifier>{5d90a567-8a1c-4dfb-aa04-bb4528ec74c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scene Components\Alarm\Manager">
+      <UniqueIdentifier>{679e2439-fbc7-40ed-bc39-da1daf1d329a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scene Components\Collision">
+      <UniqueIdentifier>{2d470eb8-b657-47f2-aff1-f7efb7368e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scene Components\Collision\Manager">
+      <UniqueIdentifier>{9cf58e99-41ea-48e4-bb86-600c4b0730f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scene Components\Collision\Volumes">
+      <UniqueIdentifier>{42cca10d-4482-4cbf-bcf4-97fd1e8051ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scene Components\Input">
+      <UniqueIdentifier>{59d6d10e-8de9-4e9f-8fcd-c1599eb91236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scene Components\Input\Keyboard">
+      <UniqueIdentifier>{9fe6a31c-050a-4f8e-9c4d-496dab92cda3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scene Components\Input\Keyboard\Manager">
+      <UniqueIdentifier>{5a0c53a3-10e9-4ee1-b2d5-12db55eb9f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scene Components\Input\Keyboard\Manager\Key State Observers">
+      <UniqueIdentifier>{d8672bd0-09c8-4de9-921a-1fd4bc492090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scene Components\Input\Mouse">
+      <UniqueIdentifier>{b8cb5fcd-aba0-4618-b8b2-2e298188b1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scene Components\Input\Mouse\Manager">
+      <UniqueIdentifier>{465d158f-cfa5-448d-9489-13efa89c6bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scene Components\Input\Mouse\Manager\Key State Observers">
+      <UniqueIdentifier>{7d463775-bd7f-4e36-b8b3-d4b49d508067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scene Components\Input\Manager">
+      <UniqueIdentifier>{f3b62ca8-6494-497c-899b-c6a3eb76b1cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scene Components\Particles">
+      <UniqueIdentifier>{2f3bdcaa-8d9b-40ba-9378-85af38d71d5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scene Components\Particles\Manager">
+      <UniqueIdentifier>{7b798fec-27f7-4b3f-889a-46fabde2902f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scene Components\Update">
+      <UniqueIdentifier>{7251c96b-6b78-40bd-9360-4df41d76d577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scene Components\Update\Manager">
+      <UniqueIdentifier>{d4f60bb4-3161-4d38-8df2-9745c26989c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scene Components\GameObject">
+      <UniqueIdentifier>{d16d97a3-4cbe-4d3e-948e-1d2ab7f98058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scene Components\GameObject\Manager">
+      <UniqueIdentifier>{892f6de5-907e-485c-ba6a-0d812d01ec5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks">
+      <UniqueIdentifier>{5095fb14-0071-43ac-a4e0-48cb103fcf88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Update">
+      <UniqueIdentifier>{9ff74f88-2624-4f34-bafb-466bcf96ebdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Post Frame">
+      <UniqueIdentifier>{a8fa3ad1-9a3c-4464-831e-8425def1bb74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Render Frame">
+      <UniqueIdentifier>{074f17f7-6b5a-4e39-93f0-78dce4d52074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Main Loop">
+      <UniqueIdentifier>{66847162-eff5-405f-a7a8-ebb12e505d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Other">
+      <UniqueIdentifier>{342db735-a349-44d8-8a4e-d053df4d677e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Audio">
+      <UniqueIdentifier>{5a66faed-16c1-420f-8754-5da622d58a2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Containers\Stack">
+      <UniqueIdentifier>{ce7598fa-dfc6-4ff5-beb1-27e3a6119fe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Containers\Queue">
+      <UniqueIdentifier>{be5e7df8-4876-479f-b6be-a5eb41394e64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Graphics\GraphicsObjects\Base">
+      <UniqueIdentifier>{c4050cd1-6cfd-45e0-b64c-bc78e8c0c7d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scene Components\Collision\Volumes\Parent Classes">
+      <UniqueIdentifier>{3ca5888d-612b-4f85-949b-22946ee5de83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\DX12_Graphics\DX12_Shadows">
+      <UniqueIdentifier>{05884590-b197-4069-9e70-939eb362f080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Audio">
+      <UniqueIdentifier>{324d874e-de46-476c-ba60-6a3b09187ca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Audio\Clips">
+      <UniqueIdentifier>{a96fef5a-aefd-4b37-b1ba-ecddb07e2f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Audio\XAudio2Files">
+      <UniqueIdentifier>{df97e920-54ba-44f2-900b-e6915ef71121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scene Components\Audio Emitter">
+      <UniqueIdentifier>{483632de-a6bb-4173-a06b-5d04fee61106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scene Components\Audio Emitter\Manager">
+      <UniqueIdentifier>{6f0dc8a3-9bdd-4d37-8871-ff92083deb59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scene Components\Audio Emitter\Callbacks">
+      <UniqueIdentifier>{e4116358-9fc1-4056-84ea-5a530af43a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Audio\EmitterData">
+      <UniqueIdentifier>{056cfdd6-2c00-40c6-811a-8da802f5279e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Time\Tools">
+      <UniqueIdentifier>{9f5a4692-d8b4-4712-9c39-811bcdb4438a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Audio\AudioSystem">
+      <UniqueIdentifier>{603318ef-664a-4240-9627-ec1b9d9bab58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Audio\AudioSystem\Commands">
+      <UniqueIdentifier>{0321f4aa-205b-41d5-9307-758f2e8ce712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Audio\AudioSystem\Commands\Set">
+      <UniqueIdentifier>{246b40d2-b7c3-49f7-ab5b-5ea15e519598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Audio\AudioSystem\Commands\Actions">
+      <UniqueIdentifier>{0820bcd5-c756-4e8e-9f85-ec96f9cc0660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Audio\AudioSystem\Commands\Data">
+      <UniqueIdentifier>{cec28c15-5986-47af-ab21-40bad5c0a5dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Audio\Priority Table">
+      <UniqueIdentifier>{7cab21fc-7f59-4877-9def-0d0e622fab69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Audio\EmitterData\AudioEmitterBuffer">
+      <UniqueIdentifier>{afa1629c-1112-4d7e-b9f4-514fbcad2ba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UserCode\ForestDemo">
+      <UniqueIdentifier>{f39f988c-2f59-4a34-83e4-6b5cc2b70c72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UserCode\Demo1\CameraControls\Updates">
+      <UniqueIdentifier>{93f64dd4-11df-40b8-a75f-b775d033c0d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Camera\Data">
+      <UniqueIdentifier>{033392b4-4594-4756-9085-d12838b46234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Camera\Data\States">
+      <UniqueIdentifier>{5512c997-1ebd-4a13-8706-22768b75afd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Camera\Manager">
+      <UniqueIdentifier>{c26b0952-acc7-4163-9c3f-6c414306768b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Camera\Manager\Commands">
+      <UniqueIdentifier>{28a620f5-a277-4462-abfa-ef68c1697d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Camera\Data\Manager">
+      <UniqueIdentifier>{e165e737-ac4c-4373-b103-68308b79b534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Scenes\Engine Scene">
+      <UniqueIdentifier>{da4af92e-7082-44a6-87cd-569da1e0dbfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Containers\Component">
+      <UniqueIdentifier>{0fa01d78-6cb2-48b8-93cd-f347050d469e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Expedition Engine\Containers\Pool">
+      <UniqueIdentifier>{7327f7b1-a3f1-460f-b99e-fe25108867bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Expedition Engine\Engine\ExpeditionEngine.h">
+      <Filter>src\Expedition Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\ExpeditionEngineAttorney.h">
+      <Filter>src\Expedition Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Resources\Actions.h">
+      <Filter>src\Expedition Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\Commands\CommandQuit.h">
+      <Filter>src\Expedition Engine\Engine\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\Commands\EngineCommand.h">
+      <Filter>src\Expedition Engine\Engine\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\Threads\ThreadManager.h">
+      <Filter>src\Expedition Engine\Engine\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\Threads\WorkerThread.h">
+      <Filter>src\Expedition Engine\Engine\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\Containers.h">
+      <Filter>src\Expedition Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\List.h">
+      <Filter>src\Expedition Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Time\EngineTime.h">
+      <Filter>src\Expedition Engine\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Time\EngineTimeAttorney.h">
+      <Filter>src\Expedition Engine\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Time\StopwatchFloat.h">
+      <Filter>src\Expedition Engine\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Time\Time.h">
+      <Filter>src\Expedition Engine\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Resources\EngineSettings.h">
+      <Filter>src\Expedition Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Scene.h">
+      <Filter>src\Expedition Engine\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\SceneAttorney.h">
+      <Filter>src\Expedition Engine\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Time\SceneTimeManager.h">
+      <Filter>src\Expedition Engine\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\SceneManager.h">
+      <Filter>src\Expedition Engine\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\SceneManagerAttorney.h">
+      <Filter>src\Expedition Engine\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\ComponentRegistrationCommand.h">
+      <Filter>src\Expedition Engine\Scenes\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\SceneCommand.h">
+      <Filter>src\Expedition Engine\Scenes\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\ComponentRegistrationActionStrategy.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Tools\Colors.h">
+      <Filter>src\Expedition Engine\Time\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Tools\Math.h">
+      <Filter>src\Expedition Engine\Time\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionRegisterInputKeyboardActionOnReleased.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Register\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionRegisterInputKeyboardActionOnPressed.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Register\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionRegisterInputKeyboardActionOnHeld.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Register\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionRegisterInputKeyboardKeyOnHeld.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Register\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionRegisterInputKeyboardKeyOnPressed.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Register\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionRegisterInputKeyboardKeyOnReleased.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Register\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionDeregisterInputKeyboardKeyOnHeld.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Deregister\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionDeregisterInputKeyboardKeyOnPressed.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Deregister\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionDeregisterInputKeyboardKeyOnReleased.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Deregister\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionDeregisterInputKeyboardActionOnPressed.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Deregister\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionDeregisterInputKeyboardActionOnHeld.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Deregister\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionDeregisterInputKeyboardActionOnReleased.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Deregister\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionDeregisterInputMouseActionOnHeld.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Deregister\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionDeregisterInputMouseActionOnPressed.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Deregister\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionDeregisterInputMouseActionOnReleased.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Deregister\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionDeregisterInputMouseKeyOnHeld.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Deregister\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionDeregisterInputMouseKeyOnPressed.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Deregister\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionDeregisterInputMouseKeyOnReleased.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Deregister\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionRegisterInputMouseActionOnHeld.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Register\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionRegisterInputMouseActionOnPressed.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Register\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionRegisterInputMouseActionOnReleased.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Register\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionRegisterInputMouseKeyOnHeld.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Register\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionRegisterInputMouseKeyOnPressed.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Register\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionRegisterInputMouseKeyOnReleased.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Register\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Game Objects\PlayerController.h">
+      <Filter>src\UserCode\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Scenes\SceneTest.h">
+      <Filter>src\UserCode\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Resources\SceneSettings.h">
+      <Filter>src\Expedition Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\SceneCommandIncludes.h">
+      <Filter>src\Expedition Engine\Scenes\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\KeyboardInputRegistrationActionIncludes.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\MouseInputRegistrationActionIncludes.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Model\FlatPlane.h">
+      <Filter>src\Expedition Engine\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Model\MeshSeparator.h">
+      <Filter>src\Expedition Engine\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Model\Model.h">
+      <Filter>src\Expedition Engine\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Model\ModelTools.h">
+      <Filter>src\Expedition Engine\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Model\SkyBox.h">
+      <Filter>src\Expedition Engine\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Model\Texture.h">
+      <Filter>src\Expedition Engine\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Image\Image.h">
+      <Filter>src\Expedition Engine\Graphics\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Image\Rect.h">
+      <Filter>src\Expedition Engine\Graphics\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Camera\Camera.h">
+      <Filter>src\Expedition Engine\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Math\Vector\Vector4F.h">
+      <Filter>src\Expedition Engine\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Math\Vector\Vector4S.h">
+      <Filter>src\Expedition Engine\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Math\Matrix\Matrix4F.h">
+      <Filter>src\Expedition Engine\Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Math\Matrix\Matrix4S.h">
+      <Filter>src\Expedition Engine\Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Math\Base\Align16.h">
+      <Filter>src\Expedition Engine\Math\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Math\Base\Constants.h">
+      <Filter>src\Expedition Engine\Math\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Math\Base\Defs.h">
+      <Filter>src\Expedition Engine\Math\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Math\Base\MathEngine.h">
+      <Filter>src\Expedition Engine\Math\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Math\Base\MathEnums.h">
+      <Filter>src\Expedition Engine\Math\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Math\Base\Types.h">
+      <Filter>src\Expedition Engine\Math\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Light\DirectionalLight.h">
+      <Filter>src\Expedition Engine\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Light\Light.h">
+      <Filter>src\Expedition Engine\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Light\LightBaseCmd.h">
+      <Filter>src\Expedition Engine\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Light\LightManager.h">
+      <Filter>src\Expedition Engine\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Light\LightManagerAttorney.h">
+      <Filter>src\Expedition Engine\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Light\PointLight.h">
+      <Filter>src\Expedition Engine\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Light\SpotLight.h">
+      <Filter>src\Expedition Engine\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\GraphicsScene.h">
+      <Filter>src\Expedition Engine\GraphicsScene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\GraphicsSceneManager.h">
+      <Filter>src\Expedition Engine\GraphicsScene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\GraphicsSceneManagerAttorney.h">
+      <Filter>src\Expedition Engine\GraphicsScene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\GraphicsSceneCommand.h">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\UI\UIManager.h">
+      <Filter>src\Expedition Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\UI\UIScreen.h">
+      <Filter>src\Expedition Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\UI\UILayer.h">
+      <Filter>src\Expedition Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\UI\UIManagerAttorney.h">
+      <Filter>src\Expedition Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\GraphicsObjectRegistrationActionStrategy.h">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands\Registration Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\GraphicsObjectRegistrationCommand.h">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\TaskManager.h">
+      <Filter>src\Expedition Engine\Engine\Task Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\Base\ActionDeregisterBase.h">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands\Registration Actions\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\Base\ActionRegisterBase.h">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands\Registration Actions\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Resources\ShaderSettings.h">
+      <Filter>src\Expedition Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\GraphicsSceneAttorney.h">
+      <Filter>src\Expedition Engine\GraphicsScene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Matrix4FDoubleBuffer.h">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Matrix4FDoubleBufferAttorney.h">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Matrix4FDoubleBufferManager.h">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Matrix4FDoubleBufferManagerAttorney.h">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\PointerDoubleBuffer.h">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\PointerDoubleBufferAttorney.h">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\PointerDoubleBufferManager.h">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\PointerDoubleBufferManagerAttorney.h">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Vector4FDoubleBuffer.h">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Vector4FDoubleBufferAttorney.h">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Vector4FDoubleBufferManager.h">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Vector4FDoubleBufferManagerAttorney.h">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Material.h">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\MaterialAttorney.h">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\MaterialManagerAttorney.h">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\MaterialManager.h">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\UI\UIElements\UIElement.h">
+      <Filter>src\Expedition Engine\UI\UI Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\UI\UIElements\Text.h">
+      <Filter>src\Expedition Engine\UI\UI Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\UI\UIElements\Button.h">
+      <Filter>src\Expedition Engine\UI\UI Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\Threads\ThreadManagerAttorney.h">
+      <Filter>src\Expedition Engine\Engine\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Vector4FDoubleBufferSynchStrategy.h">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Vector4FDoubleBufferSynchClean.h">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Vector4FDoubleBufferSynchDirty.h">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Matrix4FDoubleBufferSynchStrategy.h">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Matrix4FDoubleBufferSynchClean.h">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Matrix4FDoubleBufferSynchDirty.h">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Model\Managers\ModelManager.h">
+      <Filter>src\Expedition Engine\Graphics\Model\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Model\Managers\ModelManagerAttorney.h">
+      <Filter>src\Expedition Engine\Graphics\Model\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Model\Managers\TextureManager.h">
+      <Filter>src\Expedition Engine\Graphics\Model\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Model\Managers\TextureManagerAttorney.h">
+      <Filter>src\Expedition Engine\Graphics\Model\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Resources\TextureSettings.h">
+      <Filter>src\Expedition Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Resources\ModelSettings.h">
+      <Filter>src\Expedition Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Terrain\TerrainAttorney.h">
+      <Filter>src\Expedition Engine\Graphics\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Terrain\TerrainModel.h">
+      <Filter>src\Expedition Engine\Graphics\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Terrain\TerrainModelAttorney.h">
+      <Filter>src\Expedition Engine\Graphics\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Resources\TerrainSettings.h">
+      <Filter>src\Expedition Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Terrain\TerrainObjectManager.h">
+      <Filter>src\Expedition Engine\Graphics\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Manager Commands\SceneChangeCommand.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Manager Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Manager Commands\SceneCreationCommand.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Manager Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Manager Commands\SceneDeletionCommand.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Manager Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Manager Commands\SceneManagerCommand.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Manager Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\GraphicsResourcesManager.h">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\SpriteFont.h">
+      <Filter>src\Expedition Engine\Graphics\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\SpriteString.h">
+      <Filter>src\Expedition Engine\Graphics\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\Manager\SpriteFontManager.h">
+      <Filter>src\Expedition Engine\Graphics\Sprites\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\Manager\SpriteFontManagerAttorney.h">
+      <Filter>src\Expedition Engine\Graphics\Sprites\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\SpriteFactory\SpriteFactory.h">
+      <Filter>src\Expedition Engine\Graphics\Sprites\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\SpriteFactory\SpriteStringFactory.h">
+      <Filter>src\Expedition Engine\Graphics\Sprites\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\RapidXML\rapidxml.hpp">
+      <Filter>src\Expedition Engine\Graphics\Sprites\Rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\RapidXML\rapidxml_iterators.hpp">
+      <Filter>src\Expedition Engine\Graphics\Sprites\Rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\RapidXML\rapidxml_print.hpp">
+      <Filter>src\Expedition Engine\Graphics\Sprites\Rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\RapidXML\rapidxml_utils.hpp">
+      <Filter>src\Expedition Engine\Graphics\Sprites\Rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\ScreenLog\ScreenLog.h">
+      <Filter>src\Expedition Engine\Graphics\Sprites\ScreenLog</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\ScreenLog\ScreenLogAttorney.h">
+      <Filter>src\Expedition Engine\Graphics\Sprites\ScreenLog</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Resources\FontSettings.h">
+      <Filter>src\Expedition Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Image\ImageManager.h">
+      <Filter>src\Expedition Engine\Graphics\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Image\ImageManagerAttorney.h">
+      <Filter>src\Expedition Engine\Graphics\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Resources\ImageSettings.h">
+      <Filter>src\Expedition Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Scenes\SceneThreeTest.h">
+      <Filter>src\UserCode\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Scenes\SceneTwoTest.h">
+      <Filter>src\UserCode\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Alarm\RandomColorAlarm.h">
+      <Filter>src\UserCode\Alarm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Game Objects\SpriteController.h">
+      <Filter>src\UserCode\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Math\MathTools.h">
+      <Filter>src\Expedition Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Resources\LayerSettings.h">
+      <Filter>src\Expedition Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\Planes\PlaneController.h">
+      <Filter>src\UserCode\Demo1\Planes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\CameraController\CameraController.h">
+      <Filter>src\UserCode\Demo1\CameraControls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\CameraController\Inputs\CameraControllerMoveBackward.h">
+      <Filter>src\UserCode\Demo1\CameraControls\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\CameraController\Inputs\CameraControllerMoveForward.h">
+      <Filter>src\UserCode\Demo1\CameraControls\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\CameraController\Inputs\CameraControllerMoveLeft.h">
+      <Filter>src\UserCode\Demo1\CameraControls\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\CameraController\Inputs\CameraControllerMoveRight.h">
+      <Filter>src\UserCode\Demo1\CameraControls\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\CameraController\Inputs\CameraControllerTiltDown.h">
+      <Filter>src\UserCode\Demo1\CameraControls\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\CameraController\Inputs\CameraControllerTiltUp.h">
+      <Filter>src\UserCode\Demo1\CameraControls\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\CameraController\Inputs\CameraControllerTurnLeft.h">
+      <Filter>src\UserCode\Demo1\CameraControls\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\CameraController\Inputs\CameraControllerTurnRight.h">
+      <Filter>src\UserCode\Demo1\CameraControls\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\BouncyBalls\BallManager.h">
+      <Filter>src\UserCode\Demo1\BouncyBalls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Scene Component\ActionRegisterSceneComponent.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Scene Component</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Scene Component\ActionDeregisterSceneComponent.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Scene Component</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\CameraController\Inputs\CameraInputInclude.h">
+      <Filter>src\UserCode\Demo1\CameraControls\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Collision\CollisionTest.h">
+      <Filter>src\UserCode\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Scene Component\SceneComponentRegistrationActionIncludes.h">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Scene Component</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\BouncyBalls\UpdateBallPosition.h">
+      <Filter>src\UserCode\Demo1\BouncyBalls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\Collision\BallCollision.h">
+      <Filter>src\UserCode\Demo1\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\Collision\PlaneCollision.h">
+      <Filter>src\UserCode\Demo1\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Model\SpriteModel.h">
+      <Filter>src\Expedition Engine\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Time\SceneTimeManagerAttorney.h">
+      <Filter>src\Expedition Engine\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\UI\ButtonManager.h">
+      <Filter>src\Expedition Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\UI\MouseLeftButtonTracker.h">
+      <Filter>src\Expedition Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\UI\UIBlock.h">
+      <Filter>src\Expedition Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\UI\UIElements\ButtonAttorney.h">
+      <Filter>src\Expedition Engine\UI\UI Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Button\SceneSwapperButton.h">
+      <Filter>src\UserCode\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Button\ParticleTypeSwapperButton.h">
+      <Filter>src\UserCode\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\SpriteData.h">
+      <Filter>src\Expedition Engine\Graphics\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\List_PooledResource.h">
+      <Filter>src\Expedition Engine\Containers\Engine Only</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\PooledResource.h">
+      <Filter>src\Expedition Engine\Containers\Engine Only</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\PooledResourceIterator.h">
+      <Filter>src\Expedition Engine\Containers\Engine Only</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\ResourcePool.h">
+      <Filter>src\Expedition Engine\Containers\Engine Only</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\Stack_PooledResource.h">
+      <Filter>src\Expedition Engine\Containers\Engine Only</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Resources\GraphicsResourcesSettings.h">
+      <Filter>src\Expedition Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Resources\LightSettings.h">
+      <Filter>src\Expedition Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\EngineUtilities.h">
+      <Filter>src\Expedition Engine\Engine\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\PriorityObject.h">
+      <Filter>src\Expedition Engine\Containers\Priority Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\NodeSinglyLinked.h">
+      <Filter>src\Expedition Engine\Containers\Container Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\NodeDoublyLinked.h">
+      <Filter>src\Expedition Engine\Containers\Container Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\CircularData.h">
+      <Filter>src\Expedition Engine\Containers\Container Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\PoolDoublyLinkedNodes.h">
+      <Filter>src\Expedition Engine\Containers\Container Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\PoolSinglyLinkedNodes.h">
+      <Filter>src\Expedition Engine\Containers\Container Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\GraphicsObjects\GraphicsObject.h">
+      <Filter>src\Expedition Engine\Graphics\GraphicsObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\GraphicsObjects\GraphicsObjectAttorney.h">
+      <Filter>src\Expedition Engine\Graphics\GraphicsObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\GO_Data_Manager.h">
+      <Filter>src\Expedition Engine\Graphics\GraphicsObjects\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\GraphicsObjects\GO_Data_GPUObjects.h">
+      <Filter>src\Expedition Engine\Graphics\GraphicsObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\GO_Data_ColorLight_Manager.h">
+      <Filter>src\Expedition Engine\Graphics\GraphicsObjects\Manager\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\GO_Data_Color_Manager.h">
+      <Filter>src\Expedition Engine\Graphics\GraphicsObjects\Manager\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\GO_Data_Sprite_Manager.h">
+      <Filter>src\Expedition Engine\Graphics\GraphicsObjects\Manager\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\GO_Data_Texture_Manager.h">
+      <Filter>src\Expedition Engine\Graphics\GraphicsObjects\Manager\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\GO_Data_TextureLight_Manager.h">
+      <Filter>src\Expedition Engine\Graphics\GraphicsObjects\Manager\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\DX12App\Model\DDSTextureLoader.h">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\DX12App\d3dUtil_12.h">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\DX12App\d3dx12.h">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\DX12App\Shaders\ShaderBase_12.h">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\DX12App\Shaders\ShaderBaseAttorney_12.h">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\DX12App\Shaders\ShaderColor_12.h">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\DX12App\Shaders\ShaderColorLight_12.h">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\DX12App\Shaders\ShaderManager_12.h">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\DX12App\Shaders\ShaderManagerAttorney_12.h">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\DX12App\Shaders\ShaderTexture_12.h">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\DX12App\Shaders\UploadStructs_12.h">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\DX12App\FrameResources\FrameResourceInstanced.h">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_FrameResources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\DX12App\DXApp\AzulFileHdr_12.h">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_App</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\DX12App\DXApp\DXApp_12.h">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_App</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\ParticleManager.h">
+      <Filter>src\Expedition Engine\Graphics\Particles\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\ParticleManagerAttorney.h">
+      <Filter>src\Expedition Engine\Graphics\Particles\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\ParticleBurstData.h">
+      <Filter>src\Expedition Engine\Graphics\Particles\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_RenderParticles.h">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Render Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_UpdateFrame.h">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\EngineUtilitiesTextLoggerCommand.h">
+      <Filter>src\Expedition Engine\Engine\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\EngineUtilitiesTextLogger.h">
+      <Filter>src\Expedition Engine\Engine\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\Particle.h">
+      <Filter>src\Expedition Engine\Graphics\Particles\Render\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\Particle_PooledResource.h">
+      <Filter>src\Expedition Engine\Graphics\Particles\Render\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\Particle_PooledResourceIterator.h">
+      <Filter>src\Expedition Engine\Graphics\Particles\Render\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\Particle_PooledResourcePool.h">
+      <Filter>src\Expedition Engine\Graphics\Particles\Render\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\Particle_PooledResourceStack.h">
+      <Filter>src\Expedition Engine\Graphics\Particles\Render\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\Particle_PooledResourceList.h">
+      <Filter>src\Expedition Engine\Graphics\Particles\Render\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\ParticleBurst.h">
+      <Filter>src\Expedition Engine\Graphics\Particles\Render\Particle Burst</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\CMD_ParticleBurst.h">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\ParticleType.h">
+      <Filter>src\Expedition Engine\Graphics\Particles\Render\Particle Type</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Resources\AlarmSettings.h">
+      <Filter>src\Expedition Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\ParticleSettingsManager.h">
+      <Filter>src\Expedition Engine\Graphics\Particles\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\ParticleSettingsManagerAttorney.h">
+      <Filter>src\Expedition Engine\Graphics\Particles\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\CMD_ParticleBurstInternal.h">
+      <Filter>src\Expedition Engine\Graphics\Particles\Render\Internal Command</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Scenes\Scene_ParticleDemo.h">
+      <Filter>src\UserCode\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\DX12App\Shaders\ShaderParticle_12.h">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Game Object\GameObject.h">
+      <Filter>src\Expedition Engine\Scene Components\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Game Object\GameObjectAttorney.h">
+      <Filter>src\Expedition Engine\Scene Components\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Alarm\AlarmComponent.h">
+      <Filter>src\Expedition Engine\Scene Components\Alarm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Alarm\AlarmComponentAttorney.h">
+      <Filter>src\Expedition Engine\Scene Components\Alarm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Alarm\Manager\AlarmManager.h">
+      <Filter>src\Expedition Engine\Scene Components\Alarm\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Collision\CollisionComponent.h">
+      <Filter>src\Expedition Engine\Scene Components\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Collision\CollisionComponentAttorney.h">
+      <Filter>src\Expedition Engine\Scene Components\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Collision\Volumes\CV_Sphere.h">
+      <Filter>src\Expedition Engine\Scene Components\Collision\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Collision\Volumes\CV_Plane.h">
+      <Filter>src\Expedition Engine\Scene Components\Collision\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Collision\Manager\CollisionSystemAttorney.h">
+      <Filter>src\Expedition Engine\Scene Components\Collision\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Collision\Manager\CollisionSystem.h">
+      <Filter>src\Expedition Engine\Scene Components\Collision\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Collision\Manager\CollisionManager.h">
+      <Filter>src\Expedition Engine\Scene Components\Collision\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Keyboard\Manager\KeyboardActionMonitor.h">
+      <Filter>src\Expedition Engine\Scene Components\Input\Keyboard\Manager\Key State Observers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Keyboard\Manager\KeyboardInputMonitorParent.h">
+      <Filter>src\Expedition Engine\Scene Components\Input\Keyboard\Manager\Key State Observers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Keyboard\Manager\KeyboardKeyMonitor.h">
+      <Filter>src\Expedition Engine\Scene Components\Input\Keyboard\Manager\Key State Observers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Keyboard\Manager\KeyboardInputManager.h">
+      <Filter>src\Expedition Engine\Scene Components\Input\Keyboard\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Keyboard\KeyboardInputComponent.h">
+      <Filter>src\Expedition Engine\Scene Components\Input\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Keyboard\KeyboardInputComponentAttorney.h">
+      <Filter>src\Expedition Engine\Scene Components\Input\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Manager\ActionBindingSetting.h">
+      <Filter>src\Expedition Engine\Scene Components\Input\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Manager\InputManager.h">
+      <Filter>src\Expedition Engine\Scene Components\Input\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Manager\InputManagerAttorney.h">
+      <Filter>src\Expedition Engine\Scene Components\Input\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Mouse\MouseInputComponent.h">
+      <Filter>src\Expedition Engine\Scene Components\Input\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Mouse\MouseInputComponentAttorney.h">
+      <Filter>src\Expedition Engine\Scene Components\Input\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Mouse\Manager\MouseInputManager.h">
+      <Filter>src\Expedition Engine\Scene Components\Input\Mouse\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Mouse\Manager\MouseKeyMonitor.h">
+      <Filter>src\Expedition Engine\Scene Components\Input\Mouse\Manager\Key State Observers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Mouse\Manager\MouseInputMonitorParent.h">
+      <Filter>src\Expedition Engine\Scene Components\Input\Mouse\Manager\Key State Observers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Mouse\Manager\MouseActionMonitor.h">
+      <Filter>src\Expedition Engine\Scene Components\Input\Mouse\Manager\Key State Observers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Input.h">
+      <Filter>src\Expedition Engine\Scene Components\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Game Object\Manager\GameObjectManager.h">
+      <Filter>src\Expedition Engine\Scene Components\GameObject\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Update\UpdateComponentAttorney.h">
+      <Filter>src\Expedition Engine\Scene Components\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Update\UpdateComponent.h">
+      <Filter>src\Expedition Engine\Scene Components\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Update\Manager\UpdateManager.h">
+      <Filter>src\Expedition Engine\Scene Components\Update\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Update\Manager\UpdateHeader.h">
+      <Filter>src\Expedition Engine\Scene Components\Update\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\SceneComponent.h">
+      <Filter>src\Expedition Engine\Scene Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\SceneComponentAttorney.h">
+      <Filter>src\Expedition Engine\Scene Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\SceneComponentIncludes.h">
+      <Filter>src\Expedition Engine\Scene Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Particle Emitter\ParticleEmitter.h">
+      <Filter>src\Expedition Engine\Scene Components\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Particle Emitter\ParticleEmitterAttorney.h">
+      <Filter>src\Expedition Engine\Scene Components\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Particle Emitter\ParticleEmitterManager.h">
+      <Filter>src\Expedition Engine\Scene Components\Particles\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_ResolveFrame.h">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Post Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_RenderGraphicsObjects.h">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Render Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_Null.h">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_MainLoopStart.h">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Main Loop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_MainLoopEnd.h">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Main Loop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_PostFrameStart.h">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Post Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_PostFrameEnd.h">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Post Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_RenderFrameEnd.h">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Render Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_RenderFrameStart.h">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Render Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\EngineTask.h">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\QueueArray.h">
+      <Filter>src\Expedition Engine\Containers\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\Queue.h">
+      <Filter>src\Expedition Engine\Containers\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\Stack.h">
+      <Filter>src\Expedition Engine\Containers\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\DX12App\Shaders\ShaderTextureLight_12.h">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\GraphicsObjects\GO_Data_Base.h">
+      <Filter>src\Expedition Engine\Graphics\GraphicsObjects\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionDeregisterColor.h">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands\Registration Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionDeregisterColorLight.h">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands\Registration Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionDeregisterTexture.h">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands\Registration Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionDeregisterTextureLight.h">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands\Registration Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionRegisterColor.h">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands\Registration Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionRegisterColorLight.h">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands\Registration Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionRegisterTexture.h">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands\Registration Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionRegisterTextureLight.h">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands\Registration Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\GraphicsObjects\GO_Data_BaseAttorney.h">
+      <Filter>src\Expedition Engine\Graphics\GraphicsObjects\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Collision\Volumes\CollisionVolume.h">
+      <Filter>src\Expedition Engine\Scene Components\Collision\Volumes\Parent Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Collision\Volumes\CV_AABB.h">
+      <Filter>src\Expedition Engine\Scene Components\Collision\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Collision\Volumes\CV_OBB.h">
+      <Filter>src\Expedition Engine\Scene Components\Collision\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Collision\Volumes\CV_BoundingBox.h">
+      <Filter>src\Expedition Engine\Scene Components\Collision\Volumes\Parent Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\DX12App\Shadows\ShadowMap.h">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shadows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\EmitterData\AudioEmitterData.h">
+      <Filter>src\Expedition Engine\Audio\EmitterData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\EmitterData\AudioEmitterDataManager.h">
+      <Filter>src\Expedition Engine\Audio\EmitterData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\RIFF_Reader.h">
+      <Filter>src\Expedition Engine\Audio\XAudio2Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\EndianMacros.h">
+      <Filter>src\Expedition Engine\Audio\XAudio2Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\Clips\AudioClipManagerAttorney.h">
+      <Filter>src\Expedition Engine\Audio\Clips</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\Clips\AudioClipManager.h">
+      <Filter>src\Expedition Engine\Audio\Clips</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\Clips\AudioClipCallback_Null.h">
+      <Filter>src\Expedition Engine\Audio\Clips</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\Clips\AudioClipCallback.h">
+      <Filter>src\Expedition Engine\Audio\Clips</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\Clips\AudioClip.h">
+      <Filter>src\Expedition Engine\Audio\Clips</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Audio Emitter\AudioEmitter.h">
+      <Filter>src\Expedition Engine\Scene Components\Audio Emitter</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Audio Emitter\AudioEmitterManager.h">
+      <Filter>src\Expedition Engine\Scene Components\Audio Emitter\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Audio Emitter\AudioEmitterCallback_Null.h">
+      <Filter>src\Expedition Engine\Scene Components\Audio Emitter\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Audio Emitter\AudioEmitterCallback.h">
+      <Filter>src\Expedition Engine\Scene Components\Audio Emitter\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_LoadAudioClip.h">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\DX12App\Shaders\ShaderShadow_12.h">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\AudioSystem.h">
+      <Filter>src\Expedition Engine\Audio\AudioSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\AudioSystemAttorney.h">
+      <Filter>src\Expedition Engine\Audio\AudioSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\Commands\AudioCommand.h">
+      <Filter>src\Expedition Engine\Audio\AudioSystem\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\Commands\AudioCommand_SetVolume.h">
+      <Filter>src\Expedition Engine\Audio\AudioSystem\Commands\Set</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\Commands\AudioCommand_SetPitch.h">
+      <Filter>src\Expedition Engine\Audio\AudioSystem\Commands\Set</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\Commands\AudioCommand_SetPan.h">
+      <Filter>src\Expedition Engine\Audio\AudioSystem\Commands\Set</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\Commands\AudioCommand_ReleaseEmitterData.h">
+      <Filter>src\Expedition Engine\Audio\AudioSystem\Commands\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\Commands\AudioCommand_AcquireEmitterData.h">
+      <Filter>src\Expedition Engine\Audio\AudioSystem\Commands\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\Commands\AudioCommand_Stop.h">
+      <Filter>src\Expedition Engine\Audio\AudioSystem\Commands\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\Commands\AudioCommand_Play.h">
+      <Filter>src\Expedition Engine\Audio\AudioSystem\Commands\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\Commands\AudioCommand_Pause.h">
+      <Filter>src\Expedition Engine\Audio\AudioSystem\Commands\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_ProcessAudioCommands.h">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\DX12App\Shadows\ActionDeregisterShadow.h">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shadows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\DX12App\Shadows\ActionRegisterShadow.h">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shadows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\DX12App\Shadows\Shadow.h">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shadows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\DX12App\Shadows\ShadowActionStrategy.h">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shadows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\DX12App\Shadows\ShadowCmd.h">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shadows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\DX12App\Shadows\ShadowManager.h">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shadows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Resources\AudioSettings.h">
+      <Filter>src\Expedition Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scene Components\Audio Emitter\AudioEmitterAttorney.h">
+      <Filter>src\Expedition Engine\Scene Components\Audio Emitter</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\AudioPriorityTable.h">
+      <Filter>src\Expedition Engine\Audio\Priority Table</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\Commands\AudioCommand_SetVolumeMaster.h">
+      <Filter>src\Expedition Engine\Audio\AudioSystem\Commands\Set</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\Commands\AudioCommand_AcquireEmitterDataStreamed.h">
+      <Filter>src\Expedition Engine\Audio\AudioSystem\Commands\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\EmitterData\AudioEmitterBuffer_Streamed.h">
+      <Filter>src\Expedition Engine\Audio\EmitterData\AudioEmitterBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Audio\EmitterData\AudioEmitterBuffer_StreamedAttorney.h">
+      <Filter>src\Expedition Engine\Audio\EmitterData\AudioEmitterBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_StreamAudioClip.h">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\ForestDemo\Scene_ForestDemo.h">
+      <Filter>src\UserCode\ForestDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\CameraController\CameraToTerrainAligner.h">
+      <Filter>src\UserCode\Demo1\CameraControls\Updates</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\ForestDemo\Input_FlashLight.h">
+      <Filter>src\UserCode\ForestDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\ForestDemo\Forest_Camera.h">
+      <Filter>src\UserCode\ForestDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\ForestDemo\Update_Camera.h">
+      <Filter>src\UserCode\ForestDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\ForestDemo\Input_CameraFwdBack.h">
+      <Filter>src\UserCode\ForestDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\ForestDemo\Input_CameraLeftRight.h">
+      <Filter>src\UserCode\ForestDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\ForestDemo\Input_Sprint.h">
+      <Filter>src\UserCode\ForestDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\ForestDemo\Update_FlashLight.h">
+      <Filter>src\UserCode\ForestDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Camera\CameraDataDoubleBufferAttorney.h">
+      <Filter>src\Expedition Engine\Camera\Data\States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Camera\CameraDataDoubleBufferState.h">
+      <Filter>src\Expedition Engine\Camera\Data\States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Camera\CameraDataDoubleBufferStateClean.h">
+      <Filter>src\Expedition Engine\Camera\Data\States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Camera\CameraDataDoubleBufferStateDirty.h">
+      <Filter>src\Expedition Engine\Camera\Data\States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Camera\CameraData.h">
+      <Filter>src\Expedition Engine\Camera\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Camera\CameraManager.h">
+      <Filter>src\Expedition Engine\Camera\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Camera\CameraDataDoubleBuffer.h">
+      <Filter>src\Expedition Engine\Camera\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Camera\CameraManagerCommand.h">
+      <Filter>src\Expedition Engine\Camera\Manager\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Camera\Cmd_SetPerspectiveCamera.h">
+      <Filter>src\Expedition Engine\Camera\Manager\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Camera\Cmd_SetOrthographicCamera.h">
+      <Filter>src\Expedition Engine\Camera\Manager\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Camera\CameraManagerAttorney.h">
+      <Filter>src\Expedition Engine\Camera\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Camera\CameraDataManager.h">
+      <Filter>src\Expedition Engine\Camera\Data\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Camera\CameraAttorney.h">
+      <Filter>src\Expedition Engine\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Camera\CameraDataManagerAttorney.h">
+      <Filter>src\Expedition Engine\Camera\Data\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_SynchronizeCurrentScene.h">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Post Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_SynchronizeCurrentGraphicsScene.h">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Post Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Scenes\EngineScene.h">
+      <Filter>src\Expedition Engine\Scenes\Engine Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\SpaceExploration\PlanetOne\PlanetOneScene.h">
+      <Filter>src\UserCode\SpaceExplorationDemo\PlanetOne</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Inputs\ControlSchemeSwitcher.h">
+      <Filter>src\UserCode\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Inputs\InputableTestJumping.h">
+      <Filter>src\UserCode\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Inputs\PlayerControllerMoveBackward.h">
+      <Filter>src\UserCode\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Inputs\PlayerControllerMoveForward.h">
+      <Filter>src\UserCode\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Inputs\PlayerControllerMoveLeft.h">
+      <Filter>src\UserCode\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Inputs\PlayerControllerMoveRight.h">
+      <Filter>src\UserCode\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Inputs\PlayerControllerQuitGame.h">
+      <Filter>src\UserCode\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Inputs\PlayerControllerSwapToLayer1.h">
+      <Filter>src\UserCode\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Inputs\SceneSwapper.h">
+      <Filter>src\UserCode\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\ForestDemo\Footstep_Callback.h">
+      <Filter>src\UserCode\ForestDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\ForestDemo\Footstep_Controller.h">
+      <Filter>src\UserCode\ForestDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\User Code\ForestDemo\Footstep_Input.h">
+      <Filter>src\UserCode\ForestDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\Component\Component.h">
+      <Filter>src\Expedition Engine\Containers\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\Component\ComponentChunk.h">
+      <Filter>src\Expedition Engine\Containers\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\Component\ComponentManager.h">
+      <Filter>src\Expedition Engine\Containers\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\PriorityQueueArray.h">
+      <Filter>src\Expedition Engine\Containers\Priority Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\MinHeapObject.h">
+      <Filter>src\Expedition Engine\Containers\Priority Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\PoolArray.h">
+      <Filter>src\Expedition Engine\Containers\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\Pool.h">
+      <Filter>src\Expedition Engine\Containers\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\PoolFixedSize.h">
+      <Filter>src\Expedition Engine\Containers\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\PoolFixedSizeBlock.h">
+      <Filter>src\Expedition Engine\Containers\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\Queue_PooledResource.h">
+      <Filter>src\Expedition Engine\Containers\Engine Only</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\Stack_ThreadSafe.h">
+      <Filter>src\Expedition Engine\Containers\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\Queue_ThreadSafe.h">
+      <Filter>src\Expedition Engine\Containers\Queue</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Expedition Engine\Engine\ExpeditionEngine.cpp">
+      <Filter>src\Expedition Engine\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Resources\EndGame.cpp">
+      <Filter>src\Expedition Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Resources\LoadResources.cpp">
+      <Filter>src\Expedition Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Resources\StartGame.cpp">
+      <Filter>src\Expedition Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Resources\UnloadResources.cpp">
+      <Filter>src\Expedition Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\Commands\CommandQuit.cpp">
+      <Filter>src\Expedition Engine\Engine\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\Commands\EngineCommand.cpp">
+      <Filter>src\Expedition Engine\Engine\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\Threads\ThreadManager.cpp">
+      <Filter>src\Expedition Engine\Engine\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\Threads\WorkerThread.cpp">
+      <Filter>src\Expedition Engine\Engine\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Time\EngineTime.cpp">
+      <Filter>src\Expedition Engine\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Time\StopwatchFloat.cpp">
+      <Filter>src\Expedition Engine\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Scene.cpp">
+      <Filter>src\Expedition Engine\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Time\SceneTimeManager.cpp">
+      <Filter>src\Expedition Engine\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\SceneManager.cpp">
+      <Filter>src\Expedition Engine\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\ComponentRegistrationCommand.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Tools\Colors.cpp">
+      <Filter>src\Expedition Engine\Time\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Tools\Math.cpp">
+      <Filter>src\Expedition Engine\Time\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionRegisterInputKeyboardActionOnReleased.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Register\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionRegisterInputKeyboardActionOnPressed.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Register\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionRegisterInputKeyboardActionOnHeld.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Register\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionRegisterInputKeyboardKeyOnHeld.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Register\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionRegisterInputKeyboardKeyOnPressed.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Register\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionRegisterInputKeyboardKeyOnReleased.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Register\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionDeregisterInputKeyboardKeyOnHeld.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Deregister\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionDeregisterInputKeyboardKeyOnPressed.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Deregister\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionDeregisterInputKeyboardKeyOnReleased.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Deregister\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionDeregisterInputKeyboardActionOnPressed.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Deregister\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionDeregisterInputKeyboardActionOnHeld.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Deregister\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionDeregisterInputKeyboardActionOnReleased.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Keyboard\Deregister\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionDeregisterInputMouseActionOnHeld.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Deregister\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionDeregisterInputMouseActionOnPressed.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Deregister\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionDeregisterInputMouseActionOnReleased.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Deregister\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionDeregisterInputMouseKeyOnHeld.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Deregister\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionDeregisterInputMouseKeyOnPressed.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Deregister\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionDeregisterInputMouseKeyOnReleased.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Deregister\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionRegisterInputMouseActionOnHeld.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Register\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionRegisterInputMouseActionOnPressed.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Register\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionRegisterInputMouseActionOnReleased.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Register\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionRegisterInputMouseKeyOnHeld.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Register\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionRegisterInputMouseKeyOnPressed.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Register\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionRegisterInputMouseKeyOnReleased.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Input\Mouse\Register\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Game Objects\PlayerController.cpp">
+      <Filter>src\UserCode\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Scenes\SceneTest.cpp">
+      <Filter>src\UserCode\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Model\FlatPlane.cpp">
+      <Filter>src\Expedition Engine\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Model\MeshSeparator.cpp">
+      <Filter>src\Expedition Engine\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Model\Model.cpp">
+      <Filter>src\Expedition Engine\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Model\ModelTools.cpp">
+      <Filter>src\Expedition Engine\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Model\SkyBox.cpp">
+      <Filter>src\Expedition Engine\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Model\Texture.cpp">
+      <Filter>src\Expedition Engine\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Image\Image.cpp">
+      <Filter>src\Expedition Engine\Graphics\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Image\Rect.cpp">
+      <Filter>src\Expedition Engine\Graphics\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Camera\Camera.cpp">
+      <Filter>src\Expedition Engine\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Light\DirectionalLight.cpp">
+      <Filter>src\Expedition Engine\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Light\Light.cpp">
+      <Filter>src\Expedition Engine\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Light\LightBaseCmd.cpp">
+      <Filter>src\Expedition Engine\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Light\LightManager.cpp">
+      <Filter>src\Expedition Engine\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Light\PointLight.cpp">
+      <Filter>src\Expedition Engine\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Light\SpotLight.cpp">
+      <Filter>src\Expedition Engine\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Math\Quaternion\QuaternionF.cpp">
+      <Filter>src\Expedition Engine\Math\Quaternion</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\GraphicsScene.cpp">
+      <Filter>src\Expedition Engine\GraphicsScene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\GraphicsSceneManager.cpp">
+      <Filter>src\Expedition Engine\GraphicsScene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Math\Matrix\Matrix4F.cpp">
+      <Filter>src\Expedition Engine\Math\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Math\Matrix\Matrix4S.cpp">
+      <Filter>src\Expedition Engine\Math\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Math\Vector\Vector4F.cpp">
+      <Filter>src\Expedition Engine\Math\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Math\Vector\Vector4S.cpp">
+      <Filter>src\Expedition Engine\Math\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\UI\UIManager.cpp">
+      <Filter>src\Expedition Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\UI\UIScreen.cpp">
+      <Filter>src\Expedition Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\UI\UILayer.cpp">
+      <Filter>src\Expedition Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\Commands\GraphicsObjectRegistrationCommand.cpp">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\TaskManager.cpp">
+      <Filter>src\Expedition Engine\Engine\Task Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\Base\ActionDeregisterBase.cpp">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands\Registration Actions\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\Base\ActionRegisterBase.cpp">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands\Registration Actions\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Graphics Resources\Matrix4FDoubleBuffer.cpp">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Graphics Resources\Matrix4FDoubleBufferManager.cpp">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Graphics Resources\PointerDoubleBuffer.cpp">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Graphics Resources\PointerDoubleBufferManager.cpp">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Graphics Resources\Vector4FDoubleBuffer.cpp">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Graphics Resources\Vector4FDoubleBufferManager.cpp">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Graphics Resources\Material.cpp">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Graphics Resources\MaterialManager.cpp">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\UI\UIElements\UIElement.cpp">
+      <Filter>src\Expedition Engine\UI\UI Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\UI\UIElements\Text.cpp">
+      <Filter>src\Expedition Engine\UI\UI Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\UI\UIElements\Button.cpp">
+      <Filter>src\Expedition Engine\UI\UI Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Model\Managers\ModelManager.cpp">
+      <Filter>src\Expedition Engine\Graphics\Model\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Model\Managers\TextureManager.cpp">
+      <Filter>src\Expedition Engine\Graphics\Model\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Terrain\TerrainModel.cpp">
+      <Filter>src\Expedition Engine\Graphics\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Terrain\TerrainObjectManager.cpp">
+      <Filter>src\Expedition Engine\Graphics\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Manager Commands\SceneChangeCommand.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Manager Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Manager Commands\SceneDeletionCommand.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Manager Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Graphics Resources\GraphicsResourcesManager.cpp">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Sprites\SpriteFont.cpp">
+      <Filter>src\Expedition Engine\Graphics\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Sprites\SpriteString.cpp">
+      <Filter>src\Expedition Engine\Graphics\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Sprites\Manager\SpriteFontManager.cpp">
+      <Filter>src\Expedition Engine\Graphics\Sprites\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Sprites\SpriteFactory\SpriteFactory.cpp">
+      <Filter>src\Expedition Engine\Graphics\Sprites\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Sprites\SpriteFactory\SpriteStringFactory.cpp">
+      <Filter>src\Expedition Engine\Graphics\Sprites\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Sprites\ScreenLog\ScreenLog.cpp">
+      <Filter>src\Expedition Engine\Graphics\Sprites\ScreenLog</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Image\ImageManager.cpp">
+      <Filter>src\Expedition Engine\Graphics\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Scenes\SceneThreeTest.cpp">
+      <Filter>src\UserCode\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Scenes\SceneTwoTest.cpp">
+      <Filter>src\UserCode\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Alarm\RandomColorAlarm.cpp">
+      <Filter>src\UserCode\Alarm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Game Objects\SpriteController.cpp">
+      <Filter>src\UserCode\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Math\MathTools.cpp">
+      <Filter>src\Expedition Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Demo1\Planes\PlaneController.cpp">
+      <Filter>src\UserCode\Demo1\Planes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Demo1\CameraController\CameraController.cpp">
+      <Filter>src\UserCode\Demo1\CameraControls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Demo1\BouncyBalls\BallManager.cpp">
+      <Filter>src\UserCode\Demo1\BouncyBalls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Scene Component\ActionRegisterSceneComponent.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Scene Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Scene Component\ActionDeregisterSceneComponent.cpp">
+      <Filter>src\Expedition Engine\Scenes\Commands\Registration Actions\Scene Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Collision\CollisionTest.cpp">
+      <Filter>src\UserCode\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Demo1\Collision\BallCollision.cpp">
+      <Filter>src\UserCode\Demo1\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Demo1\Collision\PlaneCollision.cpp">
+      <Filter>src\UserCode\Demo1\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Model\SpriteModel.cpp">
+      <Filter>src\Expedition Engine\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\UI\ButtonManager.cpp">
+      <Filter>src\Expedition Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\UI\MouseLeftButtonTracker.cpp">
+      <Filter>src\Expedition Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\UI\UIBlock.cpp">
+      <Filter>src\Expedition Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Button\SceneSwapperButton.cpp">
+      <Filter>src\UserCode\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Button\ParticleTypeSwapperButton.cpp">
+      <Filter>src\UserCode\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\MainWindow.cpp">
+      <Filter>src\Expedition Engine\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Sprites\SpriteData.cpp">
+      <Filter>src\Expedition Engine\Graphics\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\EngineUtilities.cpp">
+      <Filter>src\Expedition Engine\Engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\GraphicsObjects\GraphicsObject.cpp">
+      <Filter>src\Expedition Engine\Graphics\GraphicsObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\GO_Data_Manager.cpp">
+      <Filter>src\Expedition Engine\Graphics\GraphicsObjects\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\GO_Data_Color_Manager.cpp">
+      <Filter>src\Expedition Engine\Graphics\GraphicsObjects\Manager\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\GO_Data_ColorLight_Manager.cpp">
+      <Filter>src\Expedition Engine\Graphics\GraphicsObjects\Manager\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\GO_Data_Sprite_Manager.cpp">
+      <Filter>src\Expedition Engine\Graphics\GraphicsObjects\Manager\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\GO_Data_Texture_Manager.cpp">
+      <Filter>src\Expedition Engine\Graphics\GraphicsObjects\Manager\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\GO_Data_TextureLight_Manager.cpp">
+      <Filter>src\Expedition Engine\Graphics\GraphicsObjects\Manager\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\DX12App\Model\DDSTextureLoader.cpp">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\DX12App\Shaders\ShaderBase_12.cpp">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\DX12App\Shaders\ShaderColor_12.cpp">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\DX12App\Shaders\ShaderColorLight_12.cpp">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\DX12App\Shaders\ShaderManager_12.cpp">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\DX12App\Shaders\ShaderTexture_12.cpp">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\DX12App\FrameResources\FrameResourceInstanced.cpp">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_FrameResources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\DX12App\DXApp\DXApp_12.cpp">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_App</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Particles\ParticleManager.cpp">
+      <Filter>src\Expedition Engine\Graphics\Particles\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_RenderParticles.cpp">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Render Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_UpdateFrame.cpp">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Particles\Particle.cpp">
+      <Filter>src\Expedition Engine\Graphics\Particles\Render\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Particles\Particle_PooledResourceIterator.cpp">
+      <Filter>src\Expedition Engine\Graphics\Particles\Render\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Particles\Particle_PooledResourcePool.cpp">
+      <Filter>src\Expedition Engine\Graphics\Particles\Render\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Particles\Particle_PooledResourceStack.cpp">
+      <Filter>src\Expedition Engine\Graphics\Particles\Render\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Particles\Particle_PooledResourceList.cpp">
+      <Filter>src\Expedition Engine\Graphics\Particles\Render\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Particles\ParticleBurst.cpp">
+      <Filter>src\Expedition Engine\Graphics\Particles\Render\Particle Burst</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\Commands\CMD_ParticleBurst.cpp">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Particles\ParticleType.cpp">
+      <Filter>src\Expedition Engine\Graphics\Particles\Render\Particle Type</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Particles\ParticleSettingsManager.cpp">
+      <Filter>src\Expedition Engine\Graphics\Particles\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Particles\CMD_ParticleBurstInternal.cpp">
+      <Filter>src\Expedition Engine\Graphics\Particles\Render\Internal Command</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Scenes\Scene_ParticleDemo.cpp">
+      <Filter>src\UserCode\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\DX12App\Shaders\ShaderParticle_12.cpp">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Game Object\GameObject.cpp">
+      <Filter>src\Expedition Engine\Scene Components\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Alarm\AlarmComponent.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Alarm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Alarm\Manager\AlarmManager.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Alarm\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Collision\CollisionComponent.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Collision\Volumes\CV_Sphere.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Collision\Volumes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Collision\Volumes\CV_Plane.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Collision\Volumes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Collision\Manager\CollisionSystem.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Collision\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Collision\Manager\CollisionManager.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Collision\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Input\Keyboard\Manager\KeyboardActionMonitor.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Input\Keyboard\Manager\Key State Observers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Input\Keyboard\Manager\KeyboardInputMonitorParent.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Input\Keyboard\Manager\Key State Observers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Input\Keyboard\Manager\KeyboardKeyMonitor.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Input\Keyboard\Manager\Key State Observers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Input\Keyboard\Manager\KeyboardInputManager.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Input\Keyboard\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Input\Manager\InputManager.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Input\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Input\Mouse\MouseInputComponent.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Input\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Input\Mouse\Manager\MouseInputManager.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Input\Mouse\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Input\Mouse\Manager\MouseKeyMonitor.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Input\Mouse\Manager\Key State Observers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Input\Mouse\Manager\MouseInputMonitorParent.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Input\Mouse\Manager\Key State Observers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Input\Mouse\Manager\MouseActionMonitor.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Input\Mouse\Manager\Key State Observers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Game Object\Manager\GameObjectManager.cpp">
+      <Filter>src\Expedition Engine\Scene Components\GameObject\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Update\UpdateComponent.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Update\Manager\UpdateManager.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Update\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\SceneComponent.cpp">
+      <Filter>src\Expedition Engine\Scene Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Particle Emitter\ParticleEmitter.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Particle Emitter\ParticleEmitterManager.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Particles\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Input\Keyboard\KeyboardInputComponent.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Input\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_ResolveFrame.cpp">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Post Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_RenderGraphicsObjects.cpp">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Render Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_Null.cpp">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_MainLoopStart.cpp">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Main Loop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_MainLoopEnd.cpp">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Main Loop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_PostFrameStart.cpp">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Post Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_PostFrameEnd.cpp">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Post Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_RenderFrameEnd.cpp">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Render Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_RenderFrameStart.cpp">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Render Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\EngineTask.cpp">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\DX12App\Shaders\ShaderTextureLight_12.cpp">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\GraphicsObjects\GO_Data_Base.cpp">
+      <Filter>src\Expedition Engine\Graphics\GraphicsObjects\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionDeregisterColor.cpp">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands\Registration Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionDeregisterColorLight.cpp">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands\Registration Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionDeregisterTexture.cpp">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands\Registration Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionDeregisterTextureLight.cpp">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands\Registration Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionRegisterColor.cpp">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands\Registration Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionRegisterColorLight.cpp">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands\Registration Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionRegisterTexture.cpp">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands\Registration Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionRegisterTextureLight.cpp">
+      <Filter>src\Expedition Engine\GraphicsScene\Commands\Registration Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Collision\Volumes\CollisionVolume.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Collision\Volumes\Parent Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Collision\Volumes\CV_AABB.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Collision\Volumes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Collision\Volumes\CV_OBB.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Collision\Volumes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Collision\Volumes\CV_BoundingBox.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Collision\Volumes\Parent Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\DX12App\Shadows\ShadowMap.cpp">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shadows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Audio\EmitterData\AudioEmitterData.cpp">
+      <Filter>src\Expedition Engine\Audio\EmitterData</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Audio\EmitterData\AudioEmitterDataManager.cpp">
+      <Filter>src\Expedition Engine\Audio\EmitterData</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Audio\Clips\AudioClipManager.cpp">
+      <Filter>src\Expedition Engine\Audio\Clips</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Audio\Clips\AudioClipCallback_Null.cpp">
+      <Filter>src\Expedition Engine\Audio\Clips</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Audio\Clips\AudioClip.cpp">
+      <Filter>src\Expedition Engine\Audio\Clips</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Audio Emitter\AudioEmitter.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Audio Emitter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Audio Emitter\AudioEmitterManager.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Audio Emitter\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Audio Emitter\AudioEmitterCallback_Null.cpp">
+      <Filter>src\Expedition Engine\Scene Components\Audio Emitter\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_LoadAudioClip.cpp">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\DX12App\Shaders\ShaderShadow_12.cpp">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Audio\AudioSystem.cpp">
+      <Filter>src\Expedition Engine\Audio\AudioSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Audio\Commands\AudioCommand_SetVolume.cpp">
+      <Filter>src\Expedition Engine\Audio\AudioSystem\Commands\Set</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Audio\Commands\AudioCommand_SetPitch.cpp">
+      <Filter>src\Expedition Engine\Audio\AudioSystem\Commands\Set</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Audio\Commands\AudioCommand_SetPan.cpp">
+      <Filter>src\Expedition Engine\Audio\AudioSystem\Commands\Set</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Audio\Commands\AudioCommand_ReleaseEmitterData.cpp">
+      <Filter>src\Expedition Engine\Audio\AudioSystem\Commands\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Audio\Commands\AudioCommand_AcquireEmitterData.cpp">
+      <Filter>src\Expedition Engine\Audio\AudioSystem\Commands\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Audio\Commands\AudioCommand_Stop.cpp">
+      <Filter>src\Expedition Engine\Audio\AudioSystem\Commands\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Audio\Commands\AudioCommand_Play.cpp">
+      <Filter>src\Expedition Engine\Audio\AudioSystem\Commands\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Audio\Commands\AudioCommand_Pause.cpp">
+      <Filter>src\Expedition Engine\Audio\AudioSystem\Commands\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_ProcessAudioCommands.cpp">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\DX12App\Shadows\ActionDeregisterShadow.cpp">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shadows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\DX12App\Shadows\ActionRegisterShadow.cpp">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shadows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\DX12App\Shadows\Shadow.cpp">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shadows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\DX12App\Shadows\ShadowCmd.cpp">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shadows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\DX12App\Shadows\ShadowManager.cpp">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shadows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Audio\AudioPriorityTable.cpp">
+      <Filter>src\Expedition Engine\Audio\Priority Table</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Audio\Commands\AudioCommand_SetVolumeMaster.cpp">
+      <Filter>src\Expedition Engine\Audio\AudioSystem\Commands\Set</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Audio\Commands\AudioCommand_AcquireEmitterDataStreamed.cpp">
+      <Filter>src\Expedition Engine\Audio\AudioSystem\Commands\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Audio\EmitterData\AudioEmitterBuffer_Streamed.cpp">
+      <Filter>src\Expedition Engine\Audio\EmitterData\AudioEmitterBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_StreamAudioClip.cpp">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Audio\RIFF_Reader.cpp">
+      <Filter>src\Expedition Engine\Audio\XAudio2Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\ForestDemo\Scene_ForestDemo.cpp">
+      <Filter>src\UserCode\ForestDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Demo1\CameraController\CameraToTerrainAligner.cpp">
+      <Filter>src\UserCode\Demo1\CameraControls\Updates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\ForestDemo\Forest_Camera.cpp">
+      <Filter>src\UserCode\ForestDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\ForestDemo\Input_CameraFwdBack.cpp">
+      <Filter>src\UserCode\ForestDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\ForestDemo\Input_CameraLeftRight.cpp">
+      <Filter>src\UserCode\ForestDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\ForestDemo\Update_Camera.cpp">
+      <Filter>src\UserCode\ForestDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\ForestDemo\Update_FlashLight.cpp">
+      <Filter>src\UserCode\ForestDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\ForestDemo\Input_Sprint.cpp">
+      <Filter>src\UserCode\ForestDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\ForestDemo\Input_FlashLight.cpp">
+      <Filter>src\UserCode\ForestDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Camera\CameraDataDoubleBufferStateClean.cpp">
+      <Filter>src\Expedition Engine\Camera\Data\States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Camera\CameraDataDoubleBufferStateDirty.cpp">
+      <Filter>src\Expedition Engine\Camera\Data\States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Camera\CameraData.cpp">
+      <Filter>src\Expedition Engine\Camera\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Camera\CameraManager.cpp">
+      <Filter>src\Expedition Engine\Camera\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Camera\CameraDataDoubleBuffer.cpp">
+      <Filter>src\Expedition Engine\Camera\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Camera\Cmd_SetPerspectiveCamera.cpp">
+      <Filter>src\Expedition Engine\Camera\Manager\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Camera\Cmd_SetOrthographicCamera.cpp">
+      <Filter>src\Expedition Engine\Camera\Manager\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Camera\CameraDataManager.cpp">
+      <Filter>src\Expedition Engine\Camera\Data\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_SynchronizeCurrentScene.cpp">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Post Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_SynchronizeCurrentGraphicsScene.cpp">
+      <Filter>src\Expedition Engine\Engine\Task Graph\Tasks\Child Tasks\Post Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scenes\EngineScene.cpp">
+      <Filter>src\Expedition Engine\Scenes\Engine Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\SpaceExploration\PlanetOne\PlanetOneScene.cpp">
+      <Filter>src\UserCode\SpaceExplorationDemo\PlanetOne</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Inputs\ControlSchemeSwitcher.cpp">
+      <Filter>src\UserCode\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Inputs\PlayerControllerQuitGame.cpp">
+      <Filter>src\UserCode\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Inputs\SceneSwapper.cpp">
+      <Filter>src\UserCode\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\ForestDemo\Footstep_Controller.cpp">
+      <Filter>src\UserCode\ForestDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\User Code\ForestDemo\Footstep_Input.cpp">
+      <Filter>src\UserCode\ForestDemo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Expedition Engine\Engine\Tasks\Task Graph UML.cd">
+      <Filter>src\Expedition Engine\Engine\Task Graph</Filter>
+    </None>
+    <None Include="src\Expedition Engine\Engine\Threads\Thread Manager UML.cd">
+      <Filter>src\Expedition Engine\Engine\Threads</Filter>
+    </None>
+    <None Include="src\Expedition Engine\Graphics\Graphics Resources\Double Buffer Manager UML.cd">
+      <Filter>src\Expedition Engine\Graphics\Graphics Resource Pools</Filter>
+    </None>
+    <None Include="src\Expedition Engine\GraphicsScene\GraphicsSceneDiagram.cd">
+      <Filter>src\Expedition Engine\GraphicsScene</Filter>
+    </None>
+    <None Include="src\Expedition Engine\Scenes\Scene Manager Diagram.cd">
+      <Filter>src\Expedition Engine\Scenes</Filter>
+    </None>
+    <None Include="ClassDiagram.cd">
+      <Filter>src\Expedition Engine\DX12_Graphics\DX12_Shadows</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Assets\Shaders\g_ParticleShader_12.hlsl">
+      <Filter>src\Expedition Engine\Graphics\Shaders\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Assets\Shaders\g_Color.hlsl">
+      <Filter>src\Expedition Engine\Graphics\Shaders\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Assets\Shaders\g_ColorLight.hlsl">
+      <Filter>src\Expedition Engine\Graphics\Shaders\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Assets\Shaders\g_ParticleShader_11.hlsl">
+      <Filter>src\Expedition Engine\Graphics\Shaders\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Assets\Shaders\g_Texture.hlsl">
+      <Filter>src\Expedition Engine\Graphics\Shaders\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Assets\Shaders\g_TextureLight.hlsl">
+      <Filter>src\Expedition Engine\Graphics\Shaders\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Assets\Shaders\g_ShadowShader.hlsl">
+      <Filter>src\Expedition Engine\Graphics\Shaders\HLSL</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

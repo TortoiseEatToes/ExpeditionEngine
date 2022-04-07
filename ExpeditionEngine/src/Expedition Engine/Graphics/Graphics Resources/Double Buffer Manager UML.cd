@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GraphicsResourcesManager">
+    <Position X="7" Y="1.75" Width="3.25" />
+    <Members>
+      <Method Name="~GraphicsResourcesManager" Hidden="true" />
+      <Method Name="GraphicsResourcesManager" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AgAAIAAAAAAAgAACEEAhAIBAAAAAAAAAIAAgABCAAkA=</HashCode>
+      <FileName>src\Expedition Engine\Graphics\Graphics Resources\GraphicsResourcesManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MaterialManager">
+    <Position X="2.5" Y="5.5" Width="2.5" />
+    <Members>
+      <Method Name="~MaterialManager" Hidden="true" />
+      <Method Name="MaterialManager" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAIBAAAAAAAAAAAAwAAIAQgA=</HashCode>
+      <FileName>src\Expedition Engine\Graphics\Graphics Resources\MaterialManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Matrix4FDoubleBufferManager">
+    <Position X="5.25" Y="5.5" Width="3.25" />
+    <Members>
+      <Method Name="~Matrix4FDoubleBufferManager" Hidden="true" />
+      <Method Name="Matrix4FDoubleBufferManager" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAABAAAgAAAAQAAAABAAAAAAAAAIAAgAAAAIkA=</HashCode>
+      <FileName>src\Expedition Engine\Graphics\Graphics Resources\Matrix4FDoubleBufferManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PointerDoubleBuffer">
+    <Position X="9.75" Y="10.5" Width="1.75" />
+    <Members>
+      <Method Name="~PointerDoubleBuffer" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="PointerDoubleBuffer" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAIgAQAAAABAgAAMQAAAAAAAIAAgAAAAAAI=</HashCode>
+      <FileName>src\Expedition Engine\Graphics\Graphics Resources\PointerDoubleBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vector4FDoubleBufferManager">
+    <Position X="8.75" Y="5.5" Width="3.25" />
+    <Members>
+      <Method Name="~Vector4FDoubleBufferManager" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="Vector4FDoubleBufferManager" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABAAAQAAAAAAgAAAAQAAAABAAAAAAAAAIAAgAAAAIlA=</HashCode>
+      <FileName>src\Expedition Engine\Graphics\Graphics Resources\Vector4FDoubleBufferManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vector4FDoubleBuffer">
+    <Position X="7.5" Y="10.5" Width="1.75" />
+    <Members>
+      <Method Name="~Vector4FDoubleBuffer" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="Vector4FDoubleBuffer" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IA8A8AIAAAggAQCAAQRAgACMQACAAAQBKABgAAAAEAI=</HashCode>
+      <FileName>src\Expedition Engine\Graphics\Graphics Resources\Vector4FDoubleBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PointerDoubleBufferManager">
+    <Position X="12.25" Y="5.5" Width="3.25" />
+    <Members>
+      <Method Name="~PointerDoubleBufferManager" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="PointerDoubleBufferManager" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAACEQABAABAAAAAAAAAIAAgAAAAIgA=</HashCode>
+      <FileName>src\Expedition Engine\Graphics\Graphics Resources\PointerDoubleBufferManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Matrix4FDoubleBuffer">
+    <Position X="5.5" Y="10.5" Width="1.75" />
+    <Members>
+      <Method Name="~Matrix4FDoubleBuffer" Hidden="true" />
+      <Method Name="Matrix4FDoubleBuffer" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <InheritanceLine Type="Align16" FixedToPoint="true">
+      <Path>
+        <Point X="6.25" Y="10.062" />
+        <Point X="6.25" Y="10.26" />
+        <Point X="5.938" Y="10.26" />
+        <Point X="5.938" Y="10.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAIAAAAgAQAAAABAgQAMQABAAAQAKAAgAAAAAAI=</HashCode>
+      <FileName>src\Expedition Engine\Graphics\Graphics Resources\Matrix4FDoubleBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Material">
+    <Position X="2.75" Y="10.5" Width="2.5" />
+    <Members>
+      <Method Name="~Material" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAEAQAAAAQAAABAAAABAAAAAIQAAAAAAgA=</HashCode>
+      <FileName>src\Expedition Engine\Graphics\Graphics Resources\Material.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Align16" Collapsed="true">
+    <Position X="5.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAQAAAAAAAAAAEAAQAAAAEAAAAAAAAggAAAAAA=</HashCode>
+      <FileName>dist\Math\include\Align16.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

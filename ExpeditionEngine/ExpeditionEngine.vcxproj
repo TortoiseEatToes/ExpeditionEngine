@@ -1,0 +1,1147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Expedition Engine\Containers\PoolFixedSize.h" />
+    <ClInclude Include="src\Expedition Engine\Containers\PoolFixedSizeBlock.h" />
+    <ClInclude Include="src\Expedition Engine\Containers\Component\Component.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\Component\ComponentChunk.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\Component\ComponentManager.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\MinHeapObject.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\PriorityQueueArray.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Containers\Queue_PooledResource.h" />
+    <ClInclude Include="src\Expedition Engine\Containers\Queue_ThreadSafe.h" />
+    <ClInclude Include="src\Expedition Engine\Containers\Stack_ThreadSafe.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\EngineScene.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_SynchronizeCurrentScene.h" />
+    <ClInclude Include="src\Expedition Engine\Camera\CameraAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Camera\CameraDataManagerAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Camera\CameraManagerAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Camera\Cmd_SetOrthographicCamera.h" />
+    <ClInclude Include="src\Expedition Engine\Camera\Cmd_SetPerspectiveCamera.h" />
+    <ClInclude Include="src\Expedition Engine\Camera\CameraManagerCommand.h" />
+    <ClInclude Include="src\Expedition Engine\Camera\CameraData.h" />
+    <ClInclude Include="src\Expedition Engine\Camera\CameraDataDoubleBuffer.h" />
+    <ClInclude Include="src\Expedition Engine\Camera\CameraDataDoubleBufferAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Camera\CameraDataDoubleBufferState.h" />
+    <ClInclude Include="src\Expedition Engine\Camera\CameraDataDoubleBufferStateClean.h" />
+    <ClInclude Include="src\Expedition Engine\Camera\CameraDataDoubleBufferStateDirty.h" />
+    <ClInclude Include="src\Expedition Engine\Camera\CameraManager.h" />
+    <ClInclude Include="src\Expedition Engine\Camera\CameraDataManager.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\EmitterData\AudioEmitterBuffer_Streamed.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\EmitterData\AudioEmitterBuffer_StreamedAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_StreamAudioClip.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\Commands\AudioCommand_AcquireEmitterDataStreamed.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\Commands\AudioCommand_SetVolumeMaster.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\AudioPriorityTable.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Audio Emitter\AudioEmitterAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\AudioSystemAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\Commands\AudioCommand.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\Commands\AudioCommand_AcquireEmitterData.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\Commands\AudioCommand_Pause.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\Commands\AudioCommand_Play.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\Commands\AudioCommand_ReleaseEmitterData.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\Commands\AudioCommand_SetPan.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\Commands\AudioCommand_SetPitch.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\Commands\AudioCommand_SetVolume.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\Commands\AudioCommand_Stop.h" />
+    <ClInclude Include="src\Expedition Engine\DX12App\Shadows\ActionDeregisterShadow.h" />
+    <ClInclude Include="src\Expedition Engine\DX12App\Shadows\ActionRegisterShadow.h" />
+    <ClInclude Include="src\Expedition Engine\DX12App\Shadows\Shadow.h" />
+    <ClInclude Include="src\Expedition Engine\DX12App\Shadows\ShadowActionStrategy.h" />
+    <ClInclude Include="src\Expedition Engine\DX12App\Shadows\ShadowCmd.h" />
+    <ClInclude Include="src\Expedition Engine\DX12App\Shadows\ShadowManager.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_ProcessAudioCommands.h" />
+    <ClInclude Include="src\Expedition Engine\DX12App\Shaders\ShaderShadow_12.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_LoadAudioClip.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\AudioSystem.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\Clips\AudioClip.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\Clips\AudioClipCallback.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\Clips\AudioClipCallback_Null.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\Clips\AudioClipManager.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\Clips\AudioClipManagerAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\EmitterData\AudioEmitterDataManager.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\EmitterData\AudioEmitterData.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\EndianMacros.h" />
+    <ClInclude Include="src\Expedition Engine\Audio\RIFF_Reader.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Audio Emitter\AudioEmitter.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Audio Emitter\AudioEmitterCallback.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Audio Emitter\AudioEmitterCallback_Null.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Audio Emitter\AudioEmitterManager.h" />
+    <ClInclude Include="src\Expedition Resources\AudioSettings.h" />
+    <ClInclude Include="src\Expedition Engine\DX12App\Shadows\ShadowMap.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Collision\Volumes\CV_AABB.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Collision\Volumes\CV_BoundingBox.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Collision\Volumes\CV_OBB.h" />
+    <ClInclude Include="src\Expedition Engine\DX12App\Shaders\ShaderTextureLight_12.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_MainLoopEnd.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_MainLoopStart.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_PostFrameEnd.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_PostFrameStart.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_RenderFrameEnd.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_RenderFrameStart.h" />
+    <ClInclude Include="src\Expedition Engine\DX12App\Shaders\ShaderParticle_12.h" />
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionDeregisterColor.h" />
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionDeregisterColorLight.h" />
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionDeregisterTexture.h" />
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionDeregisterTextureLight.h" />
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionRegisterColor.h" />
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionRegisterColorLight.h" />
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionRegisterTexture.h" />
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionRegisterTextureLight.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\GraphicsObjects\GO_Data_Base.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\GraphicsObjects\GO_Data_BaseAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\CMD_ParticleBurstInternal.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Particle Emitter\ParticleEmitterAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\ParticleSettingsManager.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\ParticleSettingsManagerAttorney.h" />
+    <ClInclude Include="src\Expedition Resources\AlarmSettings.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\ParticleType.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\Particle_PooledResource.h" />
+    <ClInclude Include="src\Expedition Engine\Containers\PriorityObject.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\EngineUtilitiesTextLogger.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\EngineUtilitiesTextLoggerCommand.h" />
+    <ClInclude Include="src\Expedition Engine\DX12App\d3dUtil_12.h" />
+    <ClInclude Include="src\Expedition Engine\DX12App\d3dx12.h" />
+    <ClInclude Include="src\Expedition Engine\DX12App\DXApp\AzulFileHdr_12.h" />
+    <ClInclude Include="src\Expedition Engine\DX12App\DXApp\DXApp_12.h" />
+    <ClInclude Include="src\Expedition Engine\DX12App\FrameResources\FrameResourceInstanced.h" />
+    <ClInclude Include="src\Expedition Engine\DX12App\Model\DDSTextureLoader.h" />
+    <ClInclude Include="src\Expedition Engine\DX12App\Shaders\ShaderBaseAttorney_12.h" />
+    <ClInclude Include="src\Expedition Engine\DX12App\Shaders\ShaderBase_12.h" />
+    <ClInclude Include="src\Expedition Engine\DX12App\Shaders\ShaderColorLight_12.h" />
+    <ClInclude Include="src\Expedition Engine\DX12App\Shaders\ShaderColor_12.h" />
+    <ClInclude Include="src\Expedition Engine\DX12App\Shaders\ShaderManagerAttorney_12.h" />
+    <ClInclude Include="src\Expedition Engine\DX12App\Shaders\ShaderManager_12.h" />
+    <ClInclude Include="src\Expedition Engine\DX12App\Shaders\ShaderTexture_12.h" />
+    <ClInclude Include="src\Expedition Engine\DX12App\Shaders\UploadStructs_12.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_RenderParticles.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\SceneComponentAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\GO_Data_ColorLight_Manager.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\GO_Data_Color_Manager.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\GO_Data_Sprite_Manager.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\GO_Data_TextureLight_Manager.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\GO_Data_Texture_Manager.h" />
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\CMD_ParticleBurst.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\Particle.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\ParticleBurst.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\ParticleBurstData.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Particle Emitter\ParticleEmitter.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Particle Emitter\ParticleEmitterManager.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\ParticleManager.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\ParticleManagerAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\Particle_PooledResourceIterator.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\Particle_PooledResourceList.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\Particle_PooledResourcePool.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Particles\Particle_PooledResourceStack.h" />
+    <ClInclude Include="src\Expedition Resources\GraphicsResourcesSettings.h" />
+    <ClInclude Include="src\Expedition Engine\Containers\List_PooledResource.h" />
+    <ClInclude Include="src\Expedition Engine\Containers\PooledResource.h" />
+    <ClInclude Include="src\Expedition Engine\Containers\PooledResourceIterator.h" />
+    <ClInclude Include="src\Expedition Engine\Containers\ResourcePool.h" />
+    <ClInclude Include="src\Expedition Engine\Containers\Stack_PooledResource.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\EngineUtilities.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Collision\Manager\CollisionManager.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Collision\Manager\CollisionSystem.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Collision\Manager\CollisionSystemAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Collision\Volumes\CollisionVolume.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Collision\Volumes\CV_Plane.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Collision\Volumes\CV_Sphere.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Collision\CollisionComponent.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Collision\CollisionComponentAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Manager\ActionBindingSetting.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\SceneComponent.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\GraphicsObjects\GO_Data_GPUObjects.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\GraphicsObjects\GraphicsObject.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\GO_Data_Manager.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Model\SpriteModel.h" />
+    <ClInclude Include="src\Expedition Engine\Math\MathTools.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Scene Component\ActionDeregisterSceneComponent.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Scene Component\ActionRegisterSceneComponent.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Scene Component\SceneComponentRegistrationActionIncludes.h" />
+    <ClInclude Include="src\Expedition Engine\Time\SceneTimeManagerAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\UI\ButtonManager.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\UI\MouseLeftButtonTracker.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\UI\UIBlock.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\UI\UIElements\ButtonAttorney.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Resources\LayerSettings.h" />
+    <ClInclude Include="src\Expedition Resources\LightSettings.h" />
+    <ClInclude Include="src\User Code\Alarm\RandomColorAlarm.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_RenderGraphicsObjects.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\EngineTask.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_Null.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_UpdateFrame.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\TaskManager.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_ResolveFrame.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\Tasks\Task_SynchronizeCurrentGraphicsScene.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\Threads\ThreadManagerAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\Base\ActionDeregisterBase.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\Base\ActionRegisterBase.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\GraphicsSceneAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\GraphicsResourcesManager.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Material.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\MaterialAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\MaterialManager.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\MaterialManagerAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Matrix4FDoubleBufferSynchClean.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Matrix4FDoubleBufferSynchDirty.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Matrix4FDoubleBufferSynchStrategy.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\PointerDoubleBuffer.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\PointerDoubleBufferAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\PointerDoubleBufferManager.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\PointerDoubleBufferManagerAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Matrix4FDoubleBuffer.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Matrix4FDoubleBufferAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Matrix4FDoubleBufferManager.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Matrix4FDoubleBufferManagerAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Vector4FDoubleBuffer.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Vector4FDoubleBufferAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Vector4FDoubleBufferManager.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Vector4FDoubleBufferManagerAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Vector4FDoubleBufferSynchClean.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Vector4FDoubleBufferSynchDirty.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Graphics Resources\Vector4FDoubleBufferSynchStrategy.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Image\ImageManager.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Image\ImageManagerAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Model\Managers\ModelManager.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Model\Managers\ModelManagerAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Model\Managers\TextureManager.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Model\Managers\TextureManagerAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Camera\Camera.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Alarm\AlarmComponent.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Alarm\AlarmComponentAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Alarm\Manager\AlarmManager.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Input.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Keyboard\KeyboardInputComponent.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Keyboard\KeyboardInputComponentAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Keyboard\Manager\KeyboardActionMonitor.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Keyboard\Manager\KeyboardInputManager.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Keyboard\Manager\KeyboardInputMonitorParent.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Keyboard\Manager\KeyboardKeyMonitor.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Mouse\Manager\MouseActionMonitor.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Mouse\Manager\MouseInputMonitorParent.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Mouse\Manager\MouseKeyMonitor.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Mouse\MouseInputComponentAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Mouse\Manager\MouseInputManager.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Mouse\MouseInputComponent.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Update\Manager\UpdateHeader.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Update\Manager\UpdateManager.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Update\UpdateComponentAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Game Object\GameObjectAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Game Object\Manager\GameObjectManager.h" />
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\GraphicsObjectRegistrationActionStrategy.h" />
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\GraphicsObjectRegistrationCommand.h" />
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\GraphicsScene.h" />
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\Commands\GraphicsSceneCommand.h" />
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\GraphicsSceneManager.h" />
+    <ClInclude Include="src\Expedition Engine\GraphicsScene\GraphicsSceneManagerAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\GraphicsObjects\GraphicsObjectAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Image\Image.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Image\Rect.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Light\DirectionalLight.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Light\Light.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Light\LightBaseCmd.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Light\LightManager.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Light\LightManagerAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Light\PointLight.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Light\SpotLight.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Model\FlatPlane.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Model\MeshSeparator.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Model\Model.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Model\ModelTools.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Model\SkyBox.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Model\Texture.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\SpriteData.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\Manager\SpriteFontManager.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\Manager\SpriteFontManagerAttorney.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\RapidXML\rapidxml.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\RapidXML\rapidxml_iterators.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\RapidXML\rapidxml_print.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\RapidXML\rapidxml_utils.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\ScreenLog\ScreenLog.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\ScreenLog\ScreenLogAttorney.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\SpriteFactory\SpriteFactory.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\SpriteFactory\SpriteStringFactory.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\SpriteFont.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Sprites\SpriteString.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\Graphics\Terrain\TerrainAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Terrain\TerrainModel.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Terrain\TerrainModelAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Graphics\Terrain\TerrainObjectManager.h" />
+    <ClInclude Include="src\Expedition Engine\Math\Base\Align16.h" />
+    <ClInclude Include="src\Expedition Engine\Math\Base\Constants.h" />
+    <ClInclude Include="src\Expedition Engine\Math\Base\Defs.h" />
+    <ClInclude Include="src\Expedition Engine\Math\Base\MathEngine.h" />
+    <ClInclude Include="src\Expedition Engine\Math\Base\MathEnums.h" />
+    <ClInclude Include="src\Expedition Engine\Math\Base\Types.h" />
+    <ClInclude Include="src\Expedition Engine\Math\Matrix\Matrix4F.h" />
+    <ClInclude Include="src\Expedition Engine\Math\Matrix\Matrix4S.h" />
+    <ClInclude Include="src\Expedition Engine\Math\Vector\Vector4F.h" />
+    <ClInclude Include="src\Expedition Engine\Math\Vector\Vector4S.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Manager Commands\SceneChangeCommand.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Manager Commands\SceneCreationCommand.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Manager Commands\SceneDeletionCommand.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Manager Commands\SceneManagerCommand.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionDeregisterInputKeyboardActionOnHeld.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionDeregisterInputKeyboardActionOnPressed.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionDeregisterInputKeyboardActionOnReleased.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionDeregisterInputKeyboardKeyOnHeld.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionDeregisterInputKeyboardKeyOnPressed.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionDeregisterInputKeyboardKeyOnReleased.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionRegisterInputKeyboardKeyOnHeld.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionRegisterInputKeyboardKeyOnPressed.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionRegisterInputKeyboardKeyOnReleased.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionRegisterInputKeyboardActionOnHeld.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionRegisterInputKeyboardActionOnPressed.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionRegisterInputKeyboardActionOnReleased.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\KeyboardInputRegistrationActionIncludes.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionDeregisterInputMouseActionOnHeld.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionDeregisterInputMouseActionOnPressed.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionDeregisterInputMouseActionOnReleased.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionDeregisterInputMouseKeyOnHeld.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionDeregisterInputMouseKeyOnPressed.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionDeregisterInputMouseKeyOnReleased.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionRegisterInputMouseActionOnHeld.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionRegisterInputMouseActionOnPressed.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionRegisterInputMouseActionOnReleased.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionRegisterInputMouseKeyOnHeld.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionRegisterInputMouseKeyOnPressed.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionRegisterInputMouseKeyOnReleased.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\MouseInputRegistrationActionIncludes.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\SceneCommand.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\SceneCommandIncludes.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Scene.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\SceneAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\ComponentRegistrationCommand.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\Commands\Registration Actions\ComponentRegistrationActionStrategy.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\SceneManager.h" />
+    <ClInclude Include="src\Expedition Engine\Scenes\SceneManagerAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Tools\Colors.h" />
+    <ClInclude Include="src\Expedition Engine\Tools\Math.h" />
+    <ClInclude Include="src\Expedition Engine\UI\UIElements\Button.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\UI\UIElements\Text.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\UI\UIElements\UIElement.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\UI\UILayer.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\UI\UIManager.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\UI\UIManagerAttorney.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Engine\UI\UIScreen.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Expedition Resources\EngineSettings.h" />
+    <ClInclude Include="src\Expedition Engine\Containers\CircularData.h" />
+    <ClInclude Include="src\Expedition Engine\Containers\Containers.h" />
+    <ClInclude Include="src\Expedition Engine\Containers\List.h" />
+    <ClInclude Include="src\Expedition Engine\Containers\NodeDoublyLinked.h" />
+    <ClInclude Include="src\Expedition Engine\Containers\NodeSinglyLinked.h" />
+    <ClInclude Include="src\Expedition Engine\Containers\Pool.h" />
+    <ClInclude Include="src\Expedition Engine\Containers\PoolArray.h" />
+    <ClInclude Include="src\Expedition Engine\Containers\PoolDoublyLinkedNodes.h" />
+    <ClInclude Include="src\Expedition Engine\Containers\PoolSinglyLinkedNodes.h" />
+    <ClInclude Include="src\Expedition Engine\Containers\Queue.h" />
+    <ClInclude Include="src\Expedition Engine\Containers\QueueArray.h" />
+    <ClInclude Include="src\Expedition Engine\Containers\Stack.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\Commands\CommandQuit.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\Commands\EngineCommand.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\ExpeditionEngine.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\ExpeditionEngineAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\Threads\ThreadManager.h" />
+    <ClInclude Include="src\Expedition Engine\Engine\Threads\WorkerThread.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\SceneComponentIncludes.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Update\UpdateComponent.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Game Object\GameObject.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Manager\InputManager.h" />
+    <ClInclude Include="src\Expedition Engine\Scene Components\Input\Manager\InputManagerAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Time\EngineTime.h" />
+    <ClInclude Include="src\Expedition Engine\Time\EngineTimeAttorney.h" />
+    <ClInclude Include="src\Expedition Engine\Time\SceneTimeManager.h" />
+    <ClInclude Include="src\Expedition Engine\Time\StopwatchFloat.h" />
+    <ClInclude Include="src\Expedition Engine\Time\Time.h" />
+    <ClInclude Include="src\Expedition Resources\Actions.h" />
+    <ClInclude Include="src\Expedition Resources\FontSettings.h" />
+    <ClInclude Include="src\Expedition Resources\ImageSettings.h" />
+    <ClInclude Include="src\Expedition Resources\ModelSettings.h" />
+    <ClInclude Include="src\Expedition Resources\SceneSettings.h" />
+    <ClInclude Include="src\Expedition Resources\ShaderSettings.h" />
+    <ClInclude Include="src\Expedition Resources\TerrainSettings.h" />
+    <ClInclude Include="src\Expedition Resources\TextureSettings.h" />
+    <ClInclude Include="src\User Code\Button\ParticleTypeSwapperButton.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Button\SceneSwapperButton.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Collision\CollisionTest.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\BouncyBalls\BallManager.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\BouncyBalls\UpdateBallPosition.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\CameraController\CameraController.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\CameraController\CameraToTerrainAligner.h" />
+    <ClInclude Include="src\User Code\Demo1\CameraController\Inputs\CameraControllerMoveBackward.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\CameraController\Inputs\CameraControllerMoveForward.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\CameraController\Inputs\CameraControllerMoveLeft.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\CameraController\Inputs\CameraControllerMoveRight.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\CameraController\Inputs\CameraControllerTiltDown.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\CameraController\Inputs\CameraControllerTiltUp.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\CameraController\Inputs\CameraControllerTurnLeft.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\CameraController\Inputs\CameraControllerTurnRight.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\CameraController\Inputs\CameraInputInclude.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\Collision\BallCollision.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\Collision\PlaneCollision.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Demo1\Planes\PlaneController.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\ForestDemo\Footstep_Callback.h" />
+    <ClInclude Include="src\User Code\ForestDemo\Footstep_Controller.h" />
+    <ClInclude Include="src\User Code\ForestDemo\Footstep_Input.h" />
+    <ClInclude Include="src\User Code\ForestDemo\Forest_Camera.h" />
+    <ClInclude Include="src\User Code\ForestDemo\Input_CameraFwdBack.h" />
+    <ClInclude Include="src\User Code\ForestDemo\Input_CameraLeftRight.h" />
+    <ClInclude Include="src\User Code\ForestDemo\Input_FlashLight.h" />
+    <ClInclude Include="src\User Code\ForestDemo\Input_Sprint.h" />
+    <ClInclude Include="src\User Code\ForestDemo\Scene_ForestDemo.h" />
+    <ClInclude Include="src\User Code\ForestDemo\Update_Camera.h" />
+    <ClInclude Include="src\User Code\ForestDemo\Update_FlashLight.h" />
+    <ClInclude Include="src\User Code\Game Objects\PlayerController.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Game Objects\SpriteController.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Inputs\ControlSchemeSwitcher.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Inputs\InputableTestJumping.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Inputs\PlayerControllerMoveBackward.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Inputs\PlayerControllerMoveForward.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Inputs\PlayerControllerMoveLeft.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Inputs\PlayerControllerMoveRight.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Inputs\PlayerControllerQuitGame.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Inputs\PlayerControllerSwapToLayer1.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Inputs\SceneSwapper.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Scenes\SceneTest.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Scenes\SceneThreeTest.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Scenes\SceneTwoTest.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\Scenes\Scene_ParticleDemo.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\User Code\SpaceExploration\PlanetOne\PlanetOneScene.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Expedition Engine\Scenes\EngineScene.cpp" />
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_SynchronizeCurrentScene.cpp" />
+    <ClCompile Include="src\Expedition Engine\Camera\CameraManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Camera\Cmd_SetOrthographicCamera.cpp" />
+    <ClCompile Include="src\Expedition Engine\Camera\Cmd_SetPerspectiveCamera.cpp" />
+    <ClCompile Include="src\Expedition Engine\Camera\CameraData.cpp" />
+    <ClCompile Include="src\Expedition Engine\Camera\CameraDataDoubleBuffer.cpp" />
+    <ClCompile Include="src\Expedition Engine\Camera\CameraDataDoubleBufferStateClean.cpp" />
+    <ClCompile Include="src\Expedition Engine\Camera\CameraDataDoubleBufferStateDirty.cpp" />
+    <ClCompile Include="src\Expedition Engine\Camera\CameraDataManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Audio\RIFF_Reader.cpp" />
+    <ClCompile Include="src\Expedition Engine\Audio\EmitterData\AudioEmitterBuffer_Streamed.cpp" />
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_StreamAudioClip.cpp" />
+    <ClCompile Include="src\Expedition Engine\Audio\Commands\AudioCommand_AcquireEmitterDataStreamed.cpp" />
+    <ClCompile Include="src\Expedition Engine\Audio\Commands\AudioCommand_SetVolumeMaster.cpp" />
+    <ClCompile Include="src\Expedition Engine\Audio\AudioPriorityTable.cpp" />
+    <ClCompile Include="src\Expedition Engine\Audio\Commands\AudioCommand_AcquireEmitterData.cpp" />
+    <ClCompile Include="src\Expedition Engine\Audio\Commands\AudioCommand_Pause.cpp" />
+    <ClCompile Include="src\Expedition Engine\Audio\Commands\AudioCommand_Play.cpp" />
+    <ClCompile Include="src\Expedition Engine\Audio\Commands\AudioCommand_ReleaseEmitterData.cpp" />
+    <ClCompile Include="src\Expedition Engine\Audio\Commands\AudioCommand_SetPan.cpp" />
+    <ClCompile Include="src\Expedition Engine\Audio\Commands\AudioCommand_SetPitch.cpp" />
+    <ClCompile Include="src\Expedition Engine\Audio\Commands\AudioCommand_SetVolume.cpp" />
+    <ClCompile Include="src\Expedition Engine\Audio\Commands\AudioCommand_Stop.cpp" />
+    <ClCompile Include="src\Expedition Engine\DX12App\Shadows\ActionDeregisterShadow.cpp" />
+    <ClCompile Include="src\Expedition Engine\DX12App\Shadows\ActionRegisterShadow.cpp" />
+    <ClCompile Include="src\Expedition Engine\DX12App\Shadows\Shadow.cpp" />
+    <ClCompile Include="src\Expedition Engine\DX12App\Shadows\ShadowCmd.cpp" />
+    <ClCompile Include="src\Expedition Engine\DX12App\Shadows\ShadowManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_ProcessAudioCommands.cpp" />
+    <ClCompile Include="src\Expedition Engine\DX12App\Shaders\ShaderShadow_12.cpp" />
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_LoadAudioClip.cpp" />
+    <ClCompile Include="src\Expedition Engine\Audio\AudioSystem.cpp" />
+    <ClCompile Include="src\Expedition Engine\Audio\Clips\AudioClip.cpp" />
+    <ClCompile Include="src\Expedition Engine\Audio\Clips\AudioClipCallback_Null.cpp" />
+    <ClCompile Include="src\Expedition Engine\Audio\Clips\AudioClipManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Audio\EmitterData\AudioEmitterDataManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Audio\EmitterData\AudioEmitterData.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Audio Emitter\AudioEmitter.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Audio Emitter\AudioEmitterCallback_Null.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Audio Emitter\AudioEmitterManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\DX12App\Shadows\ShadowMap.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Collision\Volumes\CV_AABB.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Collision\Volumes\CV_BoundingBox.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Collision\Volumes\CV_OBB.cpp" />
+    <ClCompile Include="src\Expedition Engine\DX12App\Shaders\ShaderTextureLight_12.cpp" />
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_MainLoopEnd.cpp" />
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_MainLoopStart.cpp" />
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_PostFrameEnd.cpp" />
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_PostFrameStart.cpp" />
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_RenderFrameEnd.cpp" />
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_RenderFrameStart.cpp" />
+    <ClCompile Include="src\Expedition Engine\DX12App\DXApp\DXApp_12.cpp" />
+    <ClCompile Include="src\Expedition Engine\DX12App\FrameResources\FrameResourceInstanced.cpp" />
+    <ClCompile Include="src\Expedition Engine\DX12App\Model\DDSTextureLoader.cpp" />
+    <ClCompile Include="src\Expedition Engine\DX12App\Shaders\ShaderBase_12.cpp" />
+    <ClCompile Include="src\Expedition Engine\DX12App\Shaders\ShaderColorLight_12.cpp" />
+    <ClCompile Include="src\Expedition Engine\DX12App\Shaders\ShaderColor_12.cpp" />
+    <ClCompile Include="src\Expedition Engine\DX12App\Shaders\ShaderManager_12.cpp" />
+    <ClCompile Include="src\Expedition Engine\DX12App\Shaders\ShaderParticle_12.cpp" />
+    <ClCompile Include="src\Expedition Engine\DX12App\Shaders\ShaderTexture_12.cpp" />
+    <ClCompile Include="src\Expedition Engine\Engine\EngineUtilities.cpp" />
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_RenderParticles.cpp" />
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionDeregisterColor.cpp" />
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionDeregisterColorLight.cpp" />
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionDeregisterTexture.cpp" />
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionDeregisterTextureLight.cpp" />
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionRegisterColor.cpp" />
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionRegisterColorLight.cpp" />
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionRegisterTexture.cpp" />
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\ActionRegisterTextureLight.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\GraphicsObjects\GO_Data_Base.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\GO_Data_ColorLight_Manager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\GO_Data_Color_Manager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\GO_Data_Manager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\GO_Data_Sprite_Manager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\GO_Data_TextureLight_Manager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\GraphicsObjects\Manager\GO_Data_Texture_Manager.cpp" />
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\Commands\CMD_ParticleBurst.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Particles\CMD_ParticleBurstInternal.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Particles\Particle.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Particles\ParticleBurst.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Particle Emitter\ParticleEmitter.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Particle Emitter\ParticleEmitterManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Particles\ParticleManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Particles\ParticleSettingsManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Particles\ParticleType.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Particles\Particle_PooledResourceIterator.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Particles\Particle_PooledResourceList.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Particles\Particle_PooledResourcePool.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Particles\Particle_PooledResourceStack.cpp" />
+    <ClCompile Include="src\User Code\Button\ParticleTypeSwapperButton.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Button\SceneSwapperButton.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Scene Components\Collision\Manager\CollisionManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Collision\Manager\CollisionSystem.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Collision\Volumes\CollisionVolume.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Collision\Volumes\CV_Plane.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Collision\Volumes\CV_Sphere.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Collision\CollisionComponent.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\SceneComponent.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\GraphicsObjects\GraphicsObject.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Model\SpriteModel.cpp" />
+    <ClCompile Include="src\Expedition Engine\Math\MathTools.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Scene Component\ActionDeregisterSceneComponent.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Scene Component\ActionRegisterSceneComponent.cpp" />
+    <ClCompile Include="src\Expedition Engine\UI\ButtonManager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\UI\MouseLeftButtonTracker.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\UI\UIBlock.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Alarm\RandomColorAlarm.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_RenderGraphicsObjects.cpp" />
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\EngineTask.cpp" />
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_Null.cpp" />
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_UpdateFrame.cpp" />
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\TaskManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_ResolveFrame.cpp" />
+    <ClCompile Include="src\Expedition Engine\Engine\Tasks\Task_SynchronizeCurrentGraphicsScene.cpp" />
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\Base\ActionDeregisterBase.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\Commands\Registration Actions\Base\ActionRegisterBase.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Graphics Resources\GraphicsResourcesManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Graphics Resources\Material.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Graphics Resources\MaterialManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Graphics Resources\PointerDoubleBuffer.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Graphics Resources\PointerDoubleBufferManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Graphics Resources\Matrix4FDoubleBuffer.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Graphics Resources\Matrix4FDoubleBufferManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Graphics Resources\Vector4FDoubleBuffer.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Graphics Resources\Vector4FDoubleBufferManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Image\ImageManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Model\Managers\ModelManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Model\Managers\TextureManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Camera\Camera.cpp" />
+    <ClCompile Include="src\Expedition Engine\Engine\Commands\CommandQuit.cpp" />
+    <ClCompile Include="src\Expedition Engine\Engine\Commands\EngineCommand.cpp" />
+    <ClCompile Include="src\Expedition Engine\Engine\ExpeditionEngine.cpp" />
+    <ClCompile Include="src\Expedition Engine\Engine\Threads\ThreadManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Engine\Threads\WorkerThread.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Alarm\AlarmComponent.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Alarm\Manager\AlarmManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Input\Keyboard\KeyboardInputComponent.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Input\Keyboard\Manager\KeyboardActionMonitor.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Input\Keyboard\Manager\KeyboardInputManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Input\Keyboard\Manager\KeyboardInputMonitorParent.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Input\Keyboard\Manager\KeyboardKeyMonitor.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Input\Mouse\Manager\MouseActionMonitor.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Input\Mouse\Manager\MouseInputMonitorParent.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Input\Mouse\Manager\MouseKeyMonitor.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Input\Mouse\Manager\MouseInputManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Input\Mouse\MouseInputComponent.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Update\Manager\UpdateManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Update\UpdateComponent.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Game Object\GameObject.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Game Object\Manager\GameObjectManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\Commands\GraphicsObjectRegistrationCommand.cpp" />
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\GraphicsScene.cpp" />
+    <ClCompile Include="src\Expedition Engine\GraphicsScene\GraphicsSceneManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Engine\MainWindow.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scene Components\Input\Manager\InputManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Image\Image.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Image\Rect.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Light\DirectionalLight.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Light\Light.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Light\LightBaseCmd.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Light\LightManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Light\PointLight.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Light\SpotLight.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Model\FlatPlane.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Model\MeshSeparator.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Model\Model.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Model\ModelTools.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Model\SkyBox.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Model\Texture.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Sprites\SpriteData.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Sprites\Manager\SpriteFontManager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Sprites\ScreenLog\ScreenLog.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Sprites\SpriteFactory\SpriteFactory.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Sprites\SpriteFactory\SpriteStringFactory.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Sprites\SpriteFont.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Sprites\SpriteString.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\Graphics\Terrain\TerrainModel.cpp" />
+    <ClCompile Include="src\Expedition Engine\Graphics\Terrain\TerrainObjectManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Math\Matrix\Matrix4F.cpp" />
+    <ClCompile Include="src\Expedition Engine\Math\Matrix\Matrix4S.cpp" />
+    <ClCompile Include="src\Expedition Engine\Math\Quaternion\QuaternionF.cpp" />
+    <ClCompile Include="src\Expedition Engine\Math\Vector\Vector4F.cpp" />
+    <ClCompile Include="src\Expedition Engine\Math\Vector\Vector4S.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Manager Commands\SceneChangeCommand.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Manager Commands\SceneDeletionCommand.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionDeregisterInputKeyboardActionOnHeld.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionDeregisterInputKeyboardActionOnPressed.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionDeregisterInputKeyboardActionOnReleased.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionDeregisterInputKeyboardKeyOnHeld.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionDeregisterInputKeyboardKeyOnPressed.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionDeregisterInputKeyboardKeyOnReleased.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionDeregisterInputMouseActionOnHeld.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionDeregisterInputMouseActionOnPressed.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionDeregisterInputMouseActionOnReleased.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionDeregisterInputMouseKeyOnHeld.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionDeregisterInputMouseKeyOnPressed.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionDeregisterInputMouseKeyOnReleased.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionRegisterInputMouseActionOnHeld.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionRegisterInputMouseActionOnPressed.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionRegisterInputMouseActionOnReleased.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionRegisterInputMouseKeyOnHeld.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionRegisterInputMouseKeyOnPressed.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Mouse\ActionRegisterInputMouseKeyOnReleased.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionRegisterInputKeyboardKeyOnHeld.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionRegisterInputKeyboardKeyOnPressed.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionRegisterInputKeyboardKeyOnReleased.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionRegisterInputKeyboardActionOnHeld.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionRegisterInputKeyboardActionOnPressed.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\Registration Actions\Keyboard\ActionRegisterInputKeyboardActionOnReleased.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Scene.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\Commands\ComponentRegistrationCommand.cpp" />
+    <ClCompile Include="src\Expedition Engine\Scenes\SceneManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Time\EngineTime.cpp" />
+    <ClCompile Include="src\Expedition Engine\Time\SceneTimeManager.cpp" />
+    <ClCompile Include="src\Expedition Engine\Time\StopwatchFloat.cpp" />
+    <ClCompile Include="src\Expedition Engine\Tools\Colors.cpp" />
+    <ClCompile Include="src\Expedition Engine\Tools\Math.cpp" />
+    <ClCompile Include="src\Expedition Engine\UI\UIElements\Button.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\UI\UIElements\Text.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\UI\UIElements\UIElement.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\UI\UILayer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\UI\UIManager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Engine\UI\UIScreen.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Expedition Resources\EndGame.cpp" />
+    <ClCompile Include="src\Expedition Resources\LoadResources.cpp" />
+    <ClCompile Include="src\Expedition Resources\StartGame.cpp" />
+    <ClCompile Include="src\Expedition Resources\UnloadResources.cpp" />
+    <ClCompile Include="src\User Code\Collision\CollisionTest.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Demo1\BouncyBalls\BallManager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Demo1\CameraController\CameraController.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Demo1\CameraController\CameraToTerrainAligner.cpp" />
+    <ClCompile Include="src\User Code\Demo1\Collision\BallCollision.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Demo1\Collision\PlaneCollision.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Demo1\Planes\PlaneController.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\User Code\ForestDemo\Footstep_Controller.cpp" />
+    <ClCompile Include="src\User Code\ForestDemo\Footstep_Input.cpp" />
+    <ClCompile Include="src\User Code\ForestDemo\Forest_Camera.cpp" />
+    <ClCompile Include="src\User Code\ForestDemo\Input_CameraFwdBack.cpp" />
+    <ClCompile Include="src\User Code\ForestDemo\Input_CameraLeftRight.cpp" />
+    <ClCompile Include="src\User Code\ForestDemo\Input_FlashLight.cpp" />
+    <ClCompile Include="src\User Code\ForestDemo\Input_Sprint.cpp" />
+    <ClCompile Include="src\User Code\ForestDemo\Scene_ForestDemo.cpp" />
+    <ClCompile Include="src\User Code\ForestDemo\Update_Camera.cpp" />
+    <ClCompile Include="src\User Code\ForestDemo\Update_FlashLight.cpp" />
+    <ClCompile Include="src\User Code\Game Objects\PlayerController.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Game Objects\SpriteController.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Inputs\ControlSchemeSwitcher.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Inputs\PlayerControllerQuitGame.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Inputs\SceneSwapper.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Scenes\SceneTest.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Scenes\SceneThreeTest.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Scenes\SceneTwoTest.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\User Code\Scenes\Scene_ParticleDemo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\User Code\SpaceExploration\PlanetOne\PlanetOneScene.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="src\Expedition Engine\Engine\Tasks\Task Graph UML.cd" />
+    <None Include="src\Expedition Engine\Engine\Threads\Thread Manager UML.cd" />
+    <None Include="src\Expedition Engine\GraphicsScene\GraphicsSceneDiagram.cd" />
+    <None Include="src\Expedition Engine\Graphics\Graphics Resources\Double Buffer Manager UML.cd" />
+    <None Include="src\Expedition Engine\Scenes\Scene Manager Diagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Assets\Shaders\g_Color.hlsl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.1</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Assets\Shaders\g_ColorLight.hlsl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.1</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Assets\Shaders\g_ParticleShader_11.hlsl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.1</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Assets\Shaders\g_ParticleShader_12.hlsl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.1</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Assets\Shaders\g_ShadowShader.hlsl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.1</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Assets\Shaders\g_Texture.hlsl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.1</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Assets\Shaders\g_TextureLight.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.1</ShaderModel>
+    </FxCompile>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{0019CB64-AAAB-48F3-AD1F-3DCD06BAF34D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ExpeditionEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalIncludeDirectories>%WINDIR%\System32\D3d12SDKLayers.dll</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Xaudio2.lib;D3D11.lib;D3D12.lib;d3dcompiler.lib;dxgi.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+    </Link>
+    <FxCompile>
+      <EntryPointName>main</EntryPointName>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;d3dcompiler.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>D3D12.lib;d3dcompiler.lib;dxgi.lib;Xaudio2.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

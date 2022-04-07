@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="GraphicsScene">
+    <Position X="4.5" Y="5" Width="2.5" />
+    <Members>
+      <Method Name="~GraphicsScene" Hidden="true" />
+      <Field Name="commandPostQueue" Hidden="true" />
+      <Field Name="commandPreQueue" Hidden="true" />
+      <Method Name="DeregisterGraphicsObject" Hidden="true" />
+      <Method Name="Draw" Hidden="true" />
+      <Method Name="GetGraphicsResourcesManager" Hidden="true" />
+      <Field Name="graphicsResourcesManager" Hidden="true" />
+      <Method Name="GraphicsScene" Hidden="true" />
+      <Method Name="InsertCommand" Hidden="true" />
+      <Field Name="listIterator" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="ProcessCommands" Hidden="true" />
+      <Field Name="pTempCommand" Hidden="true" />
+      <Method Name="RegisterGraphicsObject" Hidden="true" />
+      <Field Name="renderList" Hidden="true" />
+      <Method Name="SceneInitialize" Hidden="true" />
+      <Method Name="SceneSanitize" Hidden="true" />
+      <Method Name="SceneStart" Hidden="true" />
+      <Method Name="SceneStop" Hidden="true" />
+      <Method Name="Synchronize" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AQwAABAAAEACCiAAEAAAAIAMAAAAAgBIJAAgAAARABE=</HashCode>
+      <FileName>src\Expedition Engine\GraphicsScene\GraphicsScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsSceneManager">
+    <Position X="3" Y="1.75" Width="5.5" />
+    <Members>
+      <Method Name="~GraphicsSceneManager" Hidden="true" />
+      <Field Name="actionDeregBase" Hidden="true" />
+      <Field Name="actionRegBase" Hidden="true" />
+      <Field Name="commandPool" Hidden="true" />
+      <Field Name="DrawGraphicsStrategy" Hidden="true" />
+      <Field Name="DrawNullStrategy" Hidden="true" />
+      <Method Name="GetGraphicsResourcesManager" Hidden="true" />
+      <Method Name="GraphicsSceneManager" Hidden="true" />
+      <Method Name="Initialize" Hidden="true" />
+      <Method Name="InitializeScene" Hidden="true" />
+      <Method Name="Instance" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="privDeregisterGraphicsObject" Hidden="true" />
+      <Method Name="privDrawFrame" Hidden="true" />
+      <Method Name="privGetGraphicsResourcesManager" Hidden="true" />
+      <Method Name="privInitializeScene" Hidden="true" />
+      <Method Name="privProcessCurrentSceneCommands" Hidden="true" />
+      <Method Name="privRegisterGraphicsObject" Hidden="true" />
+      <Method Name="privSantitizeScene" Hidden="true" />
+      <Method Name="privSetActiveCamera" Hidden="true" />
+      <Method Name="privSetCurrentScene" Hidden="true" />
+      <Method Name="privSetStartingScene" Hidden="true" />
+      <Method Name="privSynchronize" Hidden="true" />
+      <Method Name="ProcessCurrentSceneCommands" Hidden="true" />
+      <Field Name="pTempCommand" Hidden="true" />
+      <Method Name="RecycleCommand" Hidden="true" />
+      <Method Name="SantitizeScene" Hidden="true" />
+      <Method Name="Terminate" Hidden="true" />
+    </Members>
+    <AssociationLine Name="currentScene" Type="GraphicsScene" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="4.392" />
+        <Point X="4.75" Y="5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="graphicsScenesArray" Type="GraphicsScene" FixedToPoint="true">
+      <Path>
+        <Point X="6.625" Y="4.392" />
+        <Point X="6.625" Y="5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AUAIACAAGAAAAykiBGwAMAAIAAACCIAsaCA2EAAAKgA=</HashCode>
+      <FileName>src\Expedition Engine\GraphicsScene\GraphicsSceneManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="currentScene" />
+      <Field Name="graphicsScenesArray" />
+      <Field Name="pCurrentDrawStrategy" />
+      <Field Name="pInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DrawNullScene" Collapsed="true">
+    <Position X="5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABRAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>src\Expedition Engine\GraphicsScene\DrawStrategy\DrawNullScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

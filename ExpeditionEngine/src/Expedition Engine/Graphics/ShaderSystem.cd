@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GraphicsScene">
+    <Position X="2.25" Y="0.5" Width="2.5" />
+    <Members>
+      <Method Name="~GraphicsScene" Hidden="true" />
+      <Method Name="GraphicsScene" Hidden="true" />
+      <Field Name="listIterator" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Field Name="pTempCommand" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AQwAABAAAEACCiAAEAAAAIAMAAAAAgBIJAAgAAARABE=</HashCode>
+      <FileName>src\Expedition Engine\GraphicsScene\GraphicsScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShaderBase">
+    <Position X="5" Y="1" Width="2.5" />
+    <Members>
+      <Method Name="~ShaderBase" Hidden="true" />
+      <Method Name="CompileShaderFromFile" Hidden="true" />
+      <Method Name="CreateInputLayout" Hidden="true" />
+      <Method Name="GetContext" Hidden="true" />
+      <Method Name="GetDevice" Hidden="true" />
+      <Field Name="mContext" Hidden="true" />
+      <Field Name="mDevice" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Field Name="pPSBlob" Hidden="true" />
+      <Method Name="privBuildShaders" Hidden="true" />
+      <Field Name="pVSBlob" Hidden="true" />
+      <Method Name="SetContext" Hidden="true" />
+      <Method Name="SetToContext_VS_PS_InputLayout" Hidden="true" />
+      <Method Name="ShaderBase" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AwAAACACAAIgAEAAAAAAABAAAAAUAA2AACAkIAEACAQ=</HashCode>
+      <FileName>src\Expedition Engine\Graphics\Shaders\ShaderBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicObject">
+    <Position X="7.75" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACgAgABAAAABICABAAAAAAAAABBgAAAAAAg=</HashCode>
+      <FileName>src\Expedition Engine\Graphics\GraphicsObjects\GraphicObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
